@@ -11,3 +11,8 @@ Plan:
 - Offline mode as well because not all study is online.
 - Streak will contain a high score to make it kinda annoying to miss.
 - More planning later
+
+
+Slightly smaller than an A5 size front / back
+Using ESP32 for bluetooth capabilities.
+Using some variety of usb connection for power.
