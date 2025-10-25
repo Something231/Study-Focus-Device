@@ -1,0 +1,4617 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "1b0eaaf2-5c2c-4b5c-a52c-4c9146e810ab")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Interface_Expansion:MCP23017_SP"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -11.43 24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MCP23017_SP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_DIP:DIP-28_W7.62mm"
+				(at 5.08 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MCP23017-Data-Sheet-DS20001952.pdf"
+				(at 5.08 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "16-bit I/O expander, I2C, interrupts, w pull-ups, SPDIP-28"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "I2C parallel port expander"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIP*W7.62mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MCP23017_SP_0_1"
+				(rectangle
+					(start -12.7 22.86)
+					(end 12.7 -22.86)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "MCP23017_SP_1_1"
+				(pin bidirectional line
+					(at -17.78 20.32 0)
+					(length 5.08)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 17.78 0)
+					(length 5.08)
+					(name "SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at -17.78 5.08 0)
+					(length 5.08)
+					(name "INTB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at -17.78 2.54 0)
+					(length 5.08)
+					(name "INTA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -2.54 0)
+					(length 5.08)
+					(name "~{RESET}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -15.24 0)
+					(length 5.08)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -17.78 0)
+					(length 5.08)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -20.32 0)
+					(length 5.08)
+					(name "A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -12.7 15.24 0)
+					(length 5.08)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -12.7 12.7 0)
+					(length 5.08)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 27.94 270)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -27.94 90)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 20.32 180)
+					(length 5.08)
+					(name "GPB0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 17.78 180)
+					(length 5.08)
+					(name "GPB1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 15.24 180)
+					(length 5.08)
+					(name "GPB2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 12.7 180)
+					(length 5.08)
+					(name "GPB3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 10.16 180)
+					(length 5.08)
+					(name "GPB4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 7.62 180)
+					(length 5.08)
+					(name "GPB5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 5.08 180)
+					(length 5.08)
+					(name "GPB6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 2.54 180)
+					(length 5.08)
+					(name "GPB7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -2.54 180)
+					(length 5.08)
+					(name "GPA0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -5.08 180)
+					(length 5.08)
+					(name "GPA1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -7.62 180)
+					(length 5.08)
+					(name "GPA2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -10.16 180)
+					(length 5.08)
+					(name "GPA3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -12.7 180)
+					(length 5.08)
+					(name "GPA4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -15.24 180)
+					(length 5.08)
+					(name "GPA5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -17.78 180)
+					(length 5.08)
+					(name "GPA6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 -20.32 180)
+					(length 5.08)
+					(name "GPA7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Study_Focus_Components:3X6mm_2pin_tactile_switch"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "3x6mm 2pin tactile switch"
+				(at 2.286 1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Study Focus Footprints:3X6mm_2pin_tactile_switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic 3x6mm 2pin tactile switch form aliexpress"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "tactile switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "3X6mm_2pin_tactile_switch_0_1"
+				(rectangle
+					(start 0 0)
+					(end 5.08 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "3X6mm_2pin_tactile_switch_1_1"
+				(pin passive line
+					(at -2.54 -1.27 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -1.27 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3V3"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(no_connect
+		(at 116.84 90.17)
+		(uuid "0f45bff1-4775-4df1-a73d-86eb8cd7d996")
+	)
+	(no_connect
+		(at 116.84 87.63)
+		(uuid "9827386f-5d58-4317-a12f-a3f60941a488")
+	)
+	(wire
+		(pts
+			(xy 152.4 95.25) (xy 153.67 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03151786-3c64-47ea-ab33-67f2cb8f478f")
+	)
+	(wire
+		(pts
+			(xy 152.4 107.95) (xy 165.1 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a6b858b-98a3-4151-a2f7-6ac5f35538b2")
+	)
+	(wire
+		(pts
+			(xy 114.3 72.39) (xy 116.84 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11bead3d-e917-4209-9772-9dbaf7ee0f20")
+	)
+	(wire
+		(pts
+			(xy 175.26 90.17) (xy 176.53 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "172df93d-d070-4bac-8d32-1166ca31e5db")
+	)
+	(wire
+		(pts
+			(xy 152.4 85.09) (xy 165.1 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18db524b-9be0-48c8-af0a-5397db4755c7")
+	)
+	(wire
+		(pts
+			(xy 152.4 110.49) (xy 153.67 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "298c1fc3-1f4a-424d-b7cf-657a019dcfd3")
+	)
+	(wire
+		(pts
+			(xy 163.83 110.49) (xy 165.1 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32edfa62-9488-4ac4-a6b5-332bf96a464e")
+	)
+	(wire
+		(pts
+			(xy 113.03 95.25) (xy 116.84 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33ccec02-9374-45cb-9b83-315fddc122be")
+	)
+	(wire
+		(pts
+			(xy 163.83 72.39) (xy 165.1 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38ced3b4-d816-46e2-8ed9-ee9a6556aef8")
+	)
+	(wire
+		(pts
+			(xy 152.4 105.41) (xy 153.67 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d2477df-46b7-42b2-bf1c-32f7989a8809")
+	)
+	(wire
+		(pts
+			(xy 152.4 72.39) (xy 153.67 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4313ca66-e001-4f4a-9478-312568201ae2")
+	)
+	(wire
+		(pts
+			(xy 152.4 97.79) (xy 165.1 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "432fe3b0-ce03-4c75-8cef-9e069d4d6d98")
+	)
+	(wire
+		(pts
+			(xy 152.4 77.47) (xy 153.67 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44fcefcb-929c-461a-963e-385aba40f25c")
+	)
+	(wire
+		(pts
+			(xy 114.3 110.49) (xy 116.84 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5333ba3b-27b8-4820-8319-503f5e335839")
+	)
+	(wire
+		(pts
+			(xy 163.83 77.47) (xy 165.1 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f0a1863-ce6a-42a5-8dec-ad168338bc14")
+	)
+	(wire
+		(pts
+			(xy 152.4 102.87) (xy 165.1 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7446bf2b-9bb1-4a5f-b882-21795835f0a3")
+	)
+	(wire
+		(pts
+			(xy 163.83 82.55) (xy 165.1 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "757f1c8b-517e-4936-93ef-3a884d243841")
+	)
+	(wire
+		(pts
+			(xy 152.4 87.63) (xy 153.67 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83d1f875-18d8-4534-9f0b-cab35bd99b76")
+	)
+	(wire
+		(pts
+			(xy 163.83 105.41) (xy 165.1 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84a9ac9a-92ce-4cbf-b7ee-e1438de0214b")
+	)
+	(wire
+		(pts
+			(xy 134.62 62.23) (xy 134.62 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84b3fb47-e79c-4c81-9db2-dcac9333698d")
+	)
+	(wire
+		(pts
+			(xy 175.26 97.79) (xy 176.53 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87bf3b05-a994-4e91-af84-4c6f001b32bd")
+	)
+	(wire
+		(pts
+			(xy 163.83 100.33) (xy 165.1 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ce13ddc-276d-40db-bf6c-2bf04a920e5c")
+	)
+	(wire
+		(pts
+			(xy 175.26 80.01) (xy 176.53 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fd7552d-1b99-4b0d-89cb-468edfc56aef")
+	)
+	(wire
+		(pts
+			(xy 152.4 113.03) (xy 165.1 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90a96aa7-65d0-4e6d-9512-2ec3e3c5acbe")
+	)
+	(wire
+		(pts
+			(xy 175.26 113.03) (xy 176.53 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93c92d98-54c8-4105-abf7-22762a0ac0a5")
+	)
+	(wire
+		(pts
+			(xy 175.26 85.09) (xy 176.53 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9affe22f-3555-4f5b-86fa-c0f3145de617")
+	)
+	(wire
+		(pts
+			(xy 114.3 107.95) (xy 116.84 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1287344-4e24-46b9-8153-deb987528ffb")
+	)
+	(wire
+		(pts
+			(xy 114.3 74.93) (xy 116.84 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a338be8c-450f-463a-82f3-e3cb85168355")
+	)
+	(wire
+		(pts
+			(xy 114.3 113.03) (xy 116.84 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a45a0f3a-20ef-4c8a-b7ac-cc7ac54fe472")
+	)
+	(wire
+		(pts
+			(xy 163.83 87.63) (xy 165.1 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae011727-3721-4577-ac0f-ba3df12b84f6")
+	)
+	(wire
+		(pts
+			(xy 152.4 80.01) (xy 165.1 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3c4f8a8-2fe4-49b8-a10f-631ce52a7354")
+	)
+	(wire
+		(pts
+			(xy 152.4 100.33) (xy 153.67 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfccb226-7cb0-4658-a7ed-2d3ec27020ef")
+	)
+	(wire
+		(pts
+			(xy 175.26 74.93) (xy 176.53 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1e509d5-e8a2-4eab-9877-ac44d68b5292")
+	)
+	(wire
+		(pts
+			(xy 134.62 120.65) (xy 134.62 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4d3c9c7-1ff6-4131-a0cb-4d19c54428f6")
+	)
+	(wire
+		(pts
+			(xy 152.4 90.17) (xy 165.1 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8e47e15-ecc8-419d-98a0-dac7a1547c54")
+	)
+	(wire
+		(pts
+			(xy 152.4 82.55) (xy 153.67 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcf960d5-9944-499e-9df6-0877e186112c")
+	)
+	(wire
+		(pts
+			(xy 163.83 95.25) (xy 165.1 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed512131-b0a0-4036-8733-10ef02be3db9")
+	)
+	(wire
+		(pts
+			(xy 175.26 102.87) (xy 176.53 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f33b619e-b11f-4e01-9041-42fc6b407d4e")
+	)
+	(wire
+		(pts
+			(xy 175.26 107.95) (xy 176.53 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f480dc98-9cb1-446d-b7ff-f444eb6fdf83")
+	)
+	(wire
+		(pts
+			(xy 152.4 74.93) (xy 165.1 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc8a4a0e-599b-42f2-accd-f79852fd01e2")
+	)
+	(hierarchical_label "A0"
+		(shape input)
+		(at 114.3 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3c94167e-b2b9-4635-b83e-9a886d65bc92")
+	)
+	(hierarchical_label "SDA"
+		(shape bidirectional)
+		(at 114.3 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "781e712d-c895-4258-bc01-84e6bf668818")
+	)
+	(hierarchical_label "SCL"
+		(shape input)
+		(at 114.3 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7a7bc76d-7d43-4cee-9bb0-91f277209c69")
+	)
+	(hierarchical_label "A2"
+		(shape input)
+		(at 114.3 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "853ae6b6-661d-4ed0-a18f-6bbb59d5c870")
+	)
+	(hierarchical_label "A1"
+		(shape input)
+		(at 114.3 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e3d0b24b-1e1a-4102-81de-00d40718cb7e")
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 134.62 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "04abef3b-1d4d-45e6-8d26-31e6a46df1c5")
+		(property "Reference" "#PWR02"
+			(at 134.62 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 134.62 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 134.62 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12ed3eac-34f5-4f75-80fb-ee5e5db9e9b2")
+		)
+		(instances
+			(project "study focus device"
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
+					(reference "#PWR097")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
+					(reference "#PWR02")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
+					(reference "#PWR078")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
+					(reference "#PWR04")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
+					(reference "#PWR040")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 176.53 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08cee925-f433-43b1-9777-e1ed0b233873")
+		(property "Reference" "#PWR011"
+			(at 182.88 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 180.34 90.1699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 176.53 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "662a79d5-b678-4902-926f-f38f566884e3")
+		)
+		(instances
+			(project "study focus device"
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
+					(reference "#PWR0110")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
+					(reference "#PWR011")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
+					(reference "#PWR091")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
+					(reference "#PWR034")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
+					(reference "#PWR053")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
+					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 165.1 87.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ea48c6b-010f-40da-a6f9-d2078d4b2496")
+		(property "Reference" "#PWR010"
+			(at 171.45 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 168.91 87.6299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 165.1 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8aa5e164-8de5-4e4a-b834-df1dc492a3e5")
+		)
+		(instances
+			(project "study focus device"
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
+					(reference "#PWR0102")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
+					(reference "#PWR010")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
+					(reference "#PWR083")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
+					(reference "#PWR026")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
+					(reference "#PWR045")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 176.53 102.87 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19096dcc-5c6f-4a15-a8a7-89cb78109e65")
+		(property "Reference" "#PWR015"
+			(at 182.88 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 180.34 102.8699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 176.53 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ebf8f03f-9d4d-4e2d-a0aa-2dd3c4464022")
+		)
+		(instances
+			(project "study focus device"
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
+					(reference "#PWR0112")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
+					(reference "#PWR015")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
+					(reference "#PWR093")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
+					(reference "#PWR036")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
+					(reference "#PWR055")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
+					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 165.1 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20168f40-dd26-40dd-ba38-e0029eff51a5")
+		(property "Reference" "#PWR06"
+			(at 171.45 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 168.91 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 165.1 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed986fb7-6e81-45e2-a949-9358e8e781ca")
+		)
+		(instances
+			(project "study focus device"
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
+					(reference "#PWR0100")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
+					(reference "#PWR06")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
+					(reference "#PWR081")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
+					(reference "#PWR024")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
+					(reference "#PWR043")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 165.1 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2bceadb7-aaf6-4b17-9210-c9c97f210986")
+		(property "Reference" "#PWR016"
+			(at 171.45 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 168.91 105.4099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 165.1 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12cecbb6-bfc4-44d8-89b5-41942189e2e9")
+		)
+		(instances
+			(project "study focus device"
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
+					(reference "#PWR0105")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
+					(reference "#PWR016")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
+					(reference "#PWR086")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
+					(reference "#PWR029")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
+					(reference "#PWR048")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 165.1 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e3bebfb-c65d-4f63-8d7f-3bcafbd8e79e")
+		(property "Reference" "#PWR08"
+			(at 171.45 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 168.91 82.5499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 165.1 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "540d9fd8-4f96-46da-9d27-9fce08ad108d")
+		)
+		(instances
+			(project "study focus device"
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
+					(reference "#PWR08")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
+					(reference "#PWR082")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
+					(reference "#PWR025")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
+					(reference "#PWR044")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 176.53 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "36193ffd-1ccd-4e1a-9d84-2bc53a7da6e9")
+		(property "Reference" "#PWR05"
+			(at 182.88 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 180.34 74.9299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 176.53 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4f5e3ec-896c-4094-8a12-ccd628e5a33e")
+		)
+		(instances
+			(project "study focus device"
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
+					(reference "#PWR0107")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
+					(reference "#PWR05")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
+					(reference "#PWR088")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
+					(reference "#PWR031")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
+					(reference "#PWR050")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
+					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Study_Focus_Components:3X6mm_2pin_tactile_switch")
+		(at 156.21 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3a5b2984-ee69-4370-8fc7-96b10fa4309e")
+		(property "Reference" "S"
+			(at 158.75 71.628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3x6mm 2pin tactile switch"
+			(at 158.75 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Study Focus Footprints:3X6mm_2pin_tactile_switch"
+			(at 156.21 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic 3x6mm 2pin tactile switch form aliexpress"
+			(at 156.21 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "29455941-88bd-4998-97a1-33e0ac0c49f9")
+		)
+		(pin "1"
+			(uuid "54d19c5f-8032-4051-9d59-550e20f6b954")
+		)
+		(instances
+			(project "study focus device"
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
+					(reference "S81")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
+					(reference "S65")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
+					(reference "S1")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
+					(reference "S33")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
+					(reference "S49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 176.53 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "475e5308-40e4-46ad-8f11-026f79f5a5ac")
+		(property "Reference" "#PWR013"
+			(at 182.88 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 180.34 97.7899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 176.53 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b1ee0d9-a69a-401e-944a-18265670bea9")
+		)
+		(instances
+			(project "study focus device"
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
+					(reference "#PWR0111")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
+					(reference "#PWR013")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
+					(reference "#PWR092")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
+					(reference "#PWR035")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
+					(reference "#PWR054")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Study_Focus_Components:3X6mm_2pin_tactile_switch")
+		(at 156.21 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4d303082-ac06-4193-aa51-2890ca4afed7")
+		(property "Reference" "S15"
+			(at 158.75 109.728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3x6mm 2pin tactile switch"
+			(at 158.75 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Study Focus Footprints:3X6mm_2pin_tactile_switch"
+			(at 156.21 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic 3x6mm 2pin tactile switch form aliexpress"
+			(at 156.21 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1982ab7d-e1a4-4a72-b3de-4885e2b50bcc")
+		)
+		(pin "1"
+			(uuid "bd8d958d-c148-4023-867a-16762c21271a")
+		)
+		(instances
+			(project "study focus device"
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
+					(reference "S88")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
+					(reference "S15")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
+					(reference "S72")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
+					(reference "S24")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
+					(reference "S40")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
+					(reference "S56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 134.62 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5afb7bb8-e110-48a3-a0fd-34a02f025551")
+		(property "Reference" "#PWR01"
+			(at 134.62 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 134.62 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 134.62 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0b7f95d-8580-42df-a6f4-3a86a37c7130")
+		)
+		(instances
+			(project "study focus device"
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
+					(reference "#PWR098")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
+					(reference "#PWR01")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
+					(reference "#PWR079")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
+					(reference "#PWR021")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
+					(reference "#PWR041")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Study_Focus_Components:3X6mm_2pin_tactile_switch")
+		(at 156.21 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5ca6aed0-26a6-4b3d-af08-5fc6ad0ee697")
+		(property "Reference" "S13"
+			(at 158.75 104.648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3x6mm 2pin tactile switch"
+			(at 158.75 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Study Focus Footprints:3X6mm_2pin_tactile_switch"
+			(at 156.21 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic 3x6mm 2pin tactile switch form aliexpress"
+			(at 156.21 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "15577308-f3b0-4cfd-8e24-ac34262fe7fc")
+		)
+		(pin "1"
+			(uuid "474b0754-87b4-46e6-bdc3-986ca7dcb8de")
+		)
+		(instances
+			(project "study focus device"
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
+					(reference "S87")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
+					(reference "S13")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
+					(reference "S71")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
+					(reference "S23")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
+					(reference "S39")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
+					(reference "S55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Interface_Expansion:MCP23017_SP")
+		(at 134.62 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "697a318e-fe98-4f76-b46c-9c3c1e4ec18d")
+		(property "Reference" "U1"
+			(at 136.7633 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MCP23017_SP"
+			(at 136.7633 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-28_W7.62mm"
+			(at 139.7 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MCP23017-Data-Sheet-DS20001952.pdf"
+			(at 139.7 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "16-bit I/O expander, I2C, interrupts, w pull-ups, SPDIP-28"
+			(at 134.62 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "18"
+			(uuid "25d4990a-894b-445f-a642-8403b53a61dc")
+		)
+		(pin "3"
+			(uuid "fd4e263a-bb90-4634-bb12-e0e50b2d5860")
+		)
+		(pin "5"
+			(uuid "c650f71e-ad0d-4ea7-b831-881b195467c1")
+		)
+		(pin "9"
+			(uuid "c3393ce1-fd16-4134-8996-e8437c7ca284")
+		)
+		(pin "14"
+			(uuid "473cf0e9-3049-4975-938e-1019e3c08237")
+		)
+		(pin "2"
+			(uuid "5de5cbd7-2e69-4232-b8a7-33a52f56b642")
+		)
+		(pin "8"
+			(uuid "845f8522-8dd4-4238-bf3f-5a1f587194fe")
+		)
+		(pin "23"
+			(uuid "11a50318-2dcc-4255-bcf3-9c9d066c13fb")
+		)
+		(pin "21"
+			(uuid "03c1383e-a779-4600-8f97-10575558b08f")
+		)
+		(pin "11"
+			(uuid "8179f6de-8e8c-4cdd-bc40-143a19d8e765")
+		)
+		(pin "16"
+			(uuid "8b4a6db6-c984-497d-ba09-9f2c8c5f93be")
+		)
+		(pin "15"
+			(uuid "a51eef73-e6b5-42b2-ad32-8a25a9c83620")
+		)
+		(pin "22"
+			(uuid "f8aa17a4-f6fc-45ee-8dc4-275f06ca8f28")
+		)
+		(pin "4"
+			(uuid "2e9eedc3-f5f6-4d94-b1ee-3a49be879adc")
+		)
+		(pin "13"
+			(uuid "bcb8ec8a-8aa2-41ef-b490-b07f72519989")
+		)
+		(pin "19"
+			(uuid "dc9f9cb4-ec27-4fd3-bfcc-2fc86271716a")
+		)
+		(pin "7"
+			(uuid "4e6aec24-409c-47c9-bf33-9fe027fef786")
+		)
+		(pin "10"
+			(uuid "7e37998e-fd8b-45be-a16f-b097ef2c4f83")
+		)
+		(pin "1"
+			(uuid "bd63676f-2636-4b32-a926-0a8548abe76f")
+		)
+		(pin "17"
+			(uuid "99608bd3-f6c8-442e-9afd-38bfbdebcacb")
+		)
+		(pin "25"
+			(uuid "f211f4d4-c0a5-4e68-8180-95fd10143c29")
+		)
+		(pin "12"
+			(uuid "99fee792-4918-4d42-996e-16f299eb42b6")
+		)
+		(pin "26"
+			(uuid "e394494c-e908-4460-bf55-d12c80b07bf8")
+		)
+		(pin "27"
+			(uuid "8a9b3bd4-69b1-41cd-9f78-4a47e6cfea32")
+		)
+		(pin "28"
+			(uuid "173fbfd2-fc38-4d3f-bdc4-92d386d58643")
+		)
+		(pin "20"
+			(uuid "d411821a-0d85-4220-9831-f893459af9d5")
+		)
+		(pin "24"
+			(uuid "573ee449-acdb-4bd1-a0fb-5e7cddd64280")
+		)
+		(pin "6"
+			(uuid "aaba93b6-508d-4bbd-b8d7-205da3b232f5")
+		)
+		(instances
+			(project "study focus device"
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
+					(reference "U6")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
+					(reference "U1")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
+					(reference "U5")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
+					(reference "U2")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
+					(reference "U3")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Study_Focus_Components:3X6mm_2pin_tactile_switch")
+		(at 167.64 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6e87ec87-4e5c-44f3-a687-4fd990723ebc")
+		(property "Reference" "S8"
+			(at 170.18 89.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3x6mm 2pin tactile switch"
+			(at 170.18 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Study Focus Footprints:3X6mm_2pin_tactile_switch"
+			(at 167.64 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic 3x6mm 2pin tactile switch form aliexpress"
+			(at 167.64 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e804fa99-d6f9-4300-a4f2-c83c8f197f22")
+		)
+		(pin "1"
+			(uuid "963a50de-d8c0-4fb6-97f0-93d367b2cf3b")
+		)
+		(instances
+			(project "study focus device"
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
+					(reference "S92")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
+					(reference "S8")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
+					(reference "S76")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
+					(reference "S28")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
+					(reference "S44")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
+					(reference "S60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 176.53 107.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7de9fa9d-43af-4661-a54b-e6b2a7eb3e1f")
+		(property "Reference" "#PWR017"
+			(at 182.88 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 180.34 107.9499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 176.53 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1e1c43c-842c-4454-927e-5aa0953957ff")
+		)
+		(instances
+			(project "study focus device"
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
+					(reference "#PWR0113")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
+					(reference "#PWR017")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
+					(reference "#PWR094")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
+					(reference "#PWR037")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
+					(reference "#PWR056")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
+					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 113.03 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82496bce-2029-4327-9a1b-a428447d2502")
+		(property "Reference" "#PWR"
+			(at 116.84 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 109.22 95.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 113.03 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac0f8b42-1dda-4e71-8571-0d8805947743")
+		)
+		(instances
+			(project "study focus device"
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
+					(reference "#PWR096")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
+					(reference "#PWR077")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
+					(reference "#PWR03")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
+					(reference "#PWR039")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 165.1 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83f11316-cc12-4233-9dcc-90278e1e06fb")
+		(property "Reference" "#PWR018"
+			(at 171.45 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 168.91 110.4899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 165.1 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0bd15f3c-e589-41a8-b87b-f6b99011e729")
+		)
+		(instances
+			(project "study focus device"
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
+					(reference "#PWR0106")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
+					(reference "#PWR018")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
+					(reference "#PWR087")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
+					(reference "#PWR030")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
+					(reference "#PWR049")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 165.1 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "852794a1-3393-4dac-bd3a-7db84e59e99d")
+		(property "Reference" "#PWR014"
+			(at 171.45 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 168.91 100.3299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 165.1 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68cf8d53-5d5c-45cb-a2c4-69425af229eb")
+		)
+		(instances
+			(project "study focus device"
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
+					(reference "#PWR0104")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
+					(reference "#PWR014")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
+					(reference "#PWR085")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
+					(reference "#PWR028")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
+					(reference "#PWR047")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 176.53 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92ce6346-d9c8-46a4-9b13-114a9623b2eb")
+		(property "Reference" "#PWR07"
+			(at 182.88 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 180.34 80.0099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 176.53 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95f6487e-a6ed-4ccf-a2e1-2d86135984a5")
+		)
+		(instances
+			(project "study focus device"
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
+					(reference "#PWR0108")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
+					(reference "#PWR07")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
+					(reference "#PWR089")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
+					(reference "#PWR032")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
+					(reference "#PWR051")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 176.53 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a6eae8c-a37c-47de-bde3-3f226ebd9bca")
+		(property "Reference" "#PWR019"
+			(at 182.88 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 180.34 113.0299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 176.53 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe3e148d-9e1a-453a-82b1-b221dd39ceed")
+		)
+		(instances
+			(project "study focus device"
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
+					(reference "#PWR0114")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
+					(reference "#PWR019")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
+					(reference "#PWR095")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
+					(reference "#PWR038")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
+					(reference "#PWR057")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Study_Focus_Components:3X6mm_2pin_tactile_switch")
+		(at 167.64 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9a817c13-4b6c-4fb7-88c3-ab2abde30c74")
+		(property "Reference" "S6"
+			(at 170.18 84.328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3x6mm 2pin tactile switch"
+			(at 170.18 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Study Focus Footprints:3X6mm_2pin_tactile_switch"
+			(at 167.64 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic 3x6mm 2pin tactile switch form aliexpress"
+			(at 167.64 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9df7dec0-e6ee-415f-84e4-35a4da38b1f8")
+		)
+		(pin "1"
+			(uuid "53d8392b-ff40-46fb-873f-527767dcd08c")
+		)
+		(instances
+			(project "study focus device"
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
+					(reference "S91")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
+					(reference "S6")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
+					(reference "S75")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
+					(reference "S27")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
+					(reference "S43")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
+					(reference "S59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Study_Focus_Components:3X6mm_2pin_tactile_switch")
+		(at 167.64 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b52e4fbf-d4dc-47f7-bcb0-1d8fef27ab6d")
+		(property "Reference" "S10"
+			(at 170.18 97.028 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3x6mm 2pin tactile switch"
+			(at 170.18 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Study Focus Footprints:3X6mm_2pin_tactile_switch"
+			(at 167.64 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic 3x6mm 2pin tactile switch form aliexpress"
+			(at 167.64 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fd0cc8a8-0cf7-4158-b280-3009c57912c6")
+		)
+		(pin "1"
+			(uuid "e2d6719b-311d-46f8-9ed9-fb650ac9f9f8")
+		)
+		(instances
+			(project "study focus device"
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
+					(reference "S93")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
+					(reference "S10")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
+					(reference "S77")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
+					(reference "S29")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
+					(reference "S45")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
+					(reference "S61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Study_Focus_Components:3X6mm_2pin_tactile_switch")
+		(at 167.64 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b8b25ce7-3c04-4621-ada0-79f3f56e3ca1")
+		(property "Reference" "S12"
+			(at 170.18 102.108 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3x6mm 2pin tactile switch"
+			(at 170.18 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Study Focus Footprints:3X6mm_2pin_tactile_switch"
+			(at 167.64 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic 3x6mm 2pin tactile switch form aliexpress"
+			(at 167.64 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2c0f2074-666e-4158-8aca-a1e71dc900b8")
+		)
+		(pin "1"
+			(uuid "8478fea8-25ff-4411-a474-e8e0cdca2a29")
+		)
+		(instances
+			(project "study focus device"
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
+					(reference "S94")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
+					(reference "S12")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
+					(reference "S78")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
+					(reference "S30")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
+					(reference "S46")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
+					(reference "S62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Study_Focus_Components:3X6mm_2pin_tactile_switch")
+		(at 156.21 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c0b2c094-a786-433e-8b29-1efc62c09e24")
+		(property "Reference" "S7"
+			(at 158.75 86.868 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3x6mm 2pin tactile switch"
+			(at 158.75 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Study Focus Footprints:3X6mm_2pin_tactile_switch"
+			(at 156.21 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic 3x6mm 2pin tactile switch form aliexpress"
+			(at 156.21 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "61079342-0511-4987-88e3-20c7aa549a1d")
+		)
+		(pin "1"
+			(uuid "df8c1ef3-3e1d-4130-a3c7-46bf18f10d12")
+		)
+		(instances
+			(project "study focus device"
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
+					(reference "S84")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
+					(reference "S7")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
+					(reference "S68")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
+					(reference "S20")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
+					(reference "S36")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
+					(reference "S52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Study_Focus_Components:3X6mm_2pin_tactile_switch")
+		(at 156.21 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c64c10a7-f2da-4949-b275-5376b6571327")
+		(property "Reference" "S11"
+			(at 158.75 99.568 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3x6mm 2pin tactile switch"
+			(at 158.75 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Study Focus Footprints:3X6mm_2pin_tactile_switch"
+			(at 156.21 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic 3x6mm 2pin tactile switch form aliexpress"
+			(at 156.21 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f6fa9e51-e40f-4824-8b83-41f3302d7730")
+		)
+		(pin "1"
+			(uuid "da21786b-4d75-4217-a524-8bf2eab4817d")
+		)
+		(instances
+			(project "study focus device"
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
+					(reference "S86")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
+					(reference "S11")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
+					(reference "S70")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
+					(reference "S22")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
+					(reference "S38")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
+					(reference "S54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Study_Focus_Components:3X6mm_2pin_tactile_switch")
+		(at 167.64 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c798192d-6863-4d8c-b3f6-efc60c399182")
+		(property "Reference" "S14"
+			(at 170.18 107.188 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3x6mm 2pin tactile switch"
+			(at 170.18 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Study Focus Footprints:3X6mm_2pin_tactile_switch"
+			(at 167.64 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic 3x6mm 2pin tactile switch form aliexpress"
+			(at 167.64 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cf217581-083a-4a16-98ef-05c93759cc7f")
+		)
+		(pin "1"
+			(uuid "375d6e59-e05c-4e3f-a9ce-76bca6788068")
+		)
+		(instances
+			(project "study focus device"
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
+					(reference "S95")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
+					(reference "S14")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
+					(reference "S79")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
+					(reference "S31")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
+					(reference "S47")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
+					(reference "S63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Study_Focus_Components:3X6mm_2pin_tactile_switch")
+		(at 156.21 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cd40ee59-eb17-4332-8fe5-84064359a4f9")
+		(property "Reference" "S5"
+			(at 158.75 81.788 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3x6mm 2pin tactile switch"
+			(at 158.75 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Study Focus Footprints:3X6mm_2pin_tactile_switch"
+			(at 156.21 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic 3x6mm 2pin tactile switch form aliexpress"
+			(at 156.21 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7b659bbe-e45d-49af-a855-b7f29222564d")
+		)
+		(pin "1"
+			(uuid "7d98b554-20f9-4c10-919e-03ad10497cc9")
+		)
+		(instances
+			(project "study focus device"
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
+					(reference "S83")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
+					(reference "S5")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
+					(reference "S67")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
+					(reference "S19")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
+					(reference "S35")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
+					(reference "S51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Study_Focus_Components:3X6mm_2pin_tactile_switch")
+		(at 167.64 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ce26e21b-951c-4ebb-b3ac-01d1a595cd2f")
+		(property "Reference" "S4"
+			(at 170.18 79.248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3x6mm 2pin tactile switch"
+			(at 170.18 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Study Focus Footprints:3X6mm_2pin_tactile_switch"
+			(at 167.64 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic 3x6mm 2pin tactile switch form aliexpress"
+			(at 167.64 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "91b59672-6132-4512-8ec9-29ee618a8062")
+		)
+		(pin "1"
+			(uuid "09c155cc-17bf-43df-b87f-5368844fc96b")
+		)
+		(instances
+			(project "study focus device"
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
+					(reference "S90")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
+					(reference "S4")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
+					(reference "S74")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
+					(reference "S26")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
+					(reference "S42")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
+					(reference "S58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Study_Focus_Components:3X6mm_2pin_tactile_switch")
+		(at 167.64 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d7eef812-4bb2-4f80-97d2-cbde94790aac")
+		(property "Reference" "S16"
+			(at 170.18 112.268 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3x6mm 2pin tactile switch"
+			(at 170.18 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Study Focus Footprints:3X6mm_2pin_tactile_switch"
+			(at 167.64 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic 3x6mm 2pin tactile switch form aliexpress"
+			(at 167.64 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0f4c9ef7-516a-46a2-9e44-2dcfaed0176e")
+		)
+		(pin "1"
+			(uuid "69d8d321-56f5-4615-b3a4-ae443db0b666")
+		)
+		(instances
+			(project "study focus device"
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
+					(reference "S96")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
+					(reference "S16")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
+					(reference "S80")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
+					(reference "S32")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
+					(reference "S48")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
+					(reference "S64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 165.1 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db1887fe-5f43-441a-a5d4-2074d146c92d")
+		(property "Reference" "#PWR012"
+			(at 171.45 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 168.91 95.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 165.1 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d777150a-0919-46f6-8cbc-f8ec3795a498")
+		)
+		(instances
+			(project "study focus device"
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
+					(reference "#PWR0103")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
+					(reference "#PWR012")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
+					(reference "#PWR084")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
+					(reference "#PWR027")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
+					(reference "#PWR046")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Study_Focus_Components:3X6mm_2pin_tactile_switch")
+		(at 156.21 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e8aae7f7-ccb1-4f64-bdbd-8ff4ccb0a917")
+		(property "Reference" "S3"
+			(at 158.75 76.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3x6mm 2pin tactile switch"
+			(at 158.75 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Study Focus Footprints:3X6mm_2pin_tactile_switch"
+			(at 156.21 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic 3x6mm 2pin tactile switch form aliexpress"
+			(at 156.21 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "41ea6ed2-ff50-4ee0-ac4a-ce1e7879a0c2")
+		)
+		(pin "1"
+			(uuid "2f55c100-2576-4792-8324-9458f2e62801")
+		)
+		(instances
+			(project "study focus device"
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
+					(reference "S82")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
+					(reference "S3")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
+					(reference "S66")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
+					(reference "S18")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
+					(reference "S34")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
+					(reference "S50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 165.1 72.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e980e0c0-94e0-4515-b2d8-f075c5068cb0")
+		(property "Reference" "#PWR"
+			(at 171.45 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 168.91 72.3899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 165.1 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88dea0e4-76c3-4959-a059-2928199e111c")
+		)
+		(instances
+			(project "study focus device"
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
+					(reference "#PWR099")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
+					(reference "#PWR080")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
+					(reference "#PWR022")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
+					(reference "#PWR042")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Study_Focus_Components:3X6mm_2pin_tactile_switch")
+		(at 156.21 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "effd7fb2-40b8-4599-900d-b4e5ac3968f0")
+		(property "Reference" "S9"
+			(at 158.75 94.488 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3x6mm 2pin tactile switch"
+			(at 158.75 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Study Focus Footprints:3X6mm_2pin_tactile_switch"
+			(at 156.21 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic 3x6mm 2pin tactile switch form aliexpress"
+			(at 156.21 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5c7ebf99-81db-4c01-b33e-ecee4df21367")
+		)
+		(pin "1"
+			(uuid "0a6f0484-c2fd-4eea-bc81-24624f4ae97e")
+		)
+		(instances
+			(project "study focus device"
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
+					(reference "S85")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
+					(reference "S9")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
+					(reference "S69")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
+					(reference "S21")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
+					(reference "S37")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
+					(reference "S53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 176.53 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0528316-3c63-429b-8e3a-9c4507277615")
+		(property "Reference" "#PWR09"
+			(at 182.88 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 180.34 85.0899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 176.53 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "efe351e1-b9fa-4c9b-9bb4-ed734f6f6d01")
+		)
+		(instances
+			(project "study focus device"
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
+					(reference "#PWR0109")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
+					(reference "#PWR09")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
+					(reference "#PWR090")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
+					(reference "#PWR033")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
+					(reference "#PWR052")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Study_Focus_Components:3X6mm_2pin_tactile_switch")
+		(at 167.64 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f9b10699-6948-4b62-83f6-610c41eaa765")
+		(property "Reference" "S2"
+			(at 170.18 74.168 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3x6mm 2pin tactile switch"
+			(at 170.18 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Study Focus Footprints:3X6mm_2pin_tactile_switch"
+			(at 167.64 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic 3x6mm 2pin tactile switch form aliexpress"
+			(at 167.64 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a055a41c-6eb7-4d2e-bb99-42be954246e0")
+		)
+		(pin "1"
+			(uuid "0a97a478-9158-4cdc-bd6a-134404291fd4")
+		)
+		(instances
+			(project "study focus device"
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
+					(reference "S89")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
+					(reference "S2")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
+					(reference "S73")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
+					(reference "S25")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
+					(reference "S41")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
+					(reference "S57")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

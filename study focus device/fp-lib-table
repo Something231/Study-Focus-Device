@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Study Focus Footprints")(type "KiCad")(uri "${KIPRJMOD}/Study Focus Footprints.pretty")(options "")(descr ""))
+)
