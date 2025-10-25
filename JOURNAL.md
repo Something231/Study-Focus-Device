@@ -12,3 +12,17 @@ I did some brainstorming to get my ideas together on this, and I created an init
 
 I also did some research for quite a while and investigated that I should probably use a microcontroller for this, and after more research came to the conclusion that using an esp32 would be best. I also looked into how i wanted to do the display and I kind of want to do a led pixel grid type display for this, but most modules i found were expensive so i think i'm going to make it custom into the pcb.  
 
+## 10/24/2025 - More research  
+
+Took quite a while but I did quite a bit of research on how to do a button matrix and led matrix with an esp32, and found some components that seemed like they'd work well for this.
+
+Also installed kicad and figured out how to use the basics of it but didnt really do much pcb design.
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTA4NywicHVyIjoiYmxvYl9pZCJ9fQ==--7f97d2002de1771c4554021b5ca0fa9a358e97eb/image.png)  
+
+## 10/25/2025 - Created a button footprint  
+
+Its not really much progress but it took quite a while to do this, I found a tactile button that I wanted to use from aliexpress and learnt how to make a footprint and symbol for it in kicad, which i havent really used before.
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTM3MSwicHVyIjoiYmxvYl9pZCJ9fQ==--3389e025c888af65c578fa70d59b934c41185c0e/image.png)
+  
+
