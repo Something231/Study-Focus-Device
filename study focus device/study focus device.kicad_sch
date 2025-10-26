@@ -244,6 +244,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 172.72) (xy 64.77 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a4e5e0f-5861-469e-8dde-b0da437cdc31")
+	)
+	(wire
+		(pts
 			(xy 67.31 20.32) (xy 72.39 20.32)
 		)
 		(stroke
@@ -301,6 +311,16 @@
 			(type default)
 		)
 		(uuid "4f6e7949-33d2-416f-9cf5-b6240aa8ed99")
+	)
+	(wire
+		(pts
+			(xy 63.5 181.61) (xy 64.77 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62edf19e-8241-4035-917b-a5db1383ecd4")
 	)
 	(wire
 		(pts
@@ -391,6 +411,16 @@
 			(type default)
 		)
 		(uuid "dfc7fb10-6531-400e-b727-0377fa74f9e8")
+	)
+	(wire
+		(pts
+			(xy 64.77 172.72) (xy 64.77 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dff1a901-1acd-4c71-ac79-c7acdd2459ab")
 	)
 	(wire
 		(pts
@@ -1614,6 +1644,160 @@
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92"
 					(reference "#PWR0117")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 17.78 154.94)
+		(size 45.72 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "03c5c2bd-4970-4d56-a43f-707c6428028e")
+		(property "Sheetname" "LEDS"
+			(at 17.78 154.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "leds.kicad_sch"
+			(at 17.78 174.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CLK" bidirectional
+			(at 63.5 157.48 0)
+			(uuid "28f1fb57-82b0-4dc3-abb0-bd0cbdb619ba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DIN" input
+			(at 63.5 160.02 0)
+			(uuid "043fca37-a286-4c7f-bb3b-6845839a012a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DOUT" output
+			(at 63.5 172.72 0)
+			(uuid "1505d0e8-f795-4ced-97ff-783b6c155fbc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LOAD" bidirectional
+			(at 63.5 162.56 0)
+			(uuid "a310623c-4d9b-49ef-bf27-5512efa98ee2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "study focus device"
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 17.78 180.34)
+		(size 45.72 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3da0d8d2-ae8f-4a31-9bd3-b64bfa5d9d1f")
+		(property "Sheetname" "LEDS2"
+			(at 17.78 179.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "leds2.kicad_sch"
+			(at 17.78 198.7046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CLK" bidirectional
+			(at 63.5 184.15 0)
+			(uuid "f32c8629-1d75-412b-8d15-7a38c07dca8f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DIN" input
+			(at 63.5 181.61 0)
+			(uuid "1b65c18f-7f1f-4ed4-a4a8-49a3ee0dcf3e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LOAD" bidirectional
+			(at 63.5 186.69 0)
+			(uuid "56c74771-f216-4d8d-8f11-e162c3db3851")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "study focus device"
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92"
+					(page "9")
 				)
 			)
 		)

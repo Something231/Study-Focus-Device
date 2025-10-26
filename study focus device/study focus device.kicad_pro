@@ -436,6 +436,14 @@
     [
       "59c9e324-f072-4507-a391-6a085bfc55dd",
       "16 Buttons5"
+    ],
+    [
+      "03c5c2bd-4970-4d56-a43f-707c6428028e",
+      "LEDS"
+    ],
+    [
+      "3da0d8d2-ae8f-4a31-9bd3-b64bfa5d9d1f",
+      "LEDS2"
     ]
   ],
   "text_variables": {}
