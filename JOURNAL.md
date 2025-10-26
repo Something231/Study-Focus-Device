@@ -26,3 +26,11 @@ Its not really much progress but it took quite a while to do this, I found a tac
 ![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTM3MSwicHVyIjoiYmxvYl9pZCJ9fQ==--3389e025c888af65c578fa70d59b934c41185c0e/image.png)
   
 
+## 10/26/2025 - Designed an led matrix circuit  
+
+Took far longer than it should've but I designed the circuit for both the led matrix and button matrixes in the circuit, and did a lot of research to find the components to do so.
+ I'm still trying to figure out what I want to do for power supply and led display.
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTYzNywicHVyIjoiYmxvYl9pZCJ9fQ==--996bd166cf0e60d5af40559d8baa83191d9017ff/image.png)
+  
+
