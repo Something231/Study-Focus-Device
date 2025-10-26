@@ -444,6 +444,10 @@
     [
       "3da0d8d2-ae8f-4a31-9bd3-b64bfa5d9d1f",
       "LEDS2"
+    ],
+    [
+      "8d26b70e-1f1f-445b-a9ff-a1f556b7f7d8",
+      "Power module"
     ]
   ],
   "text_variables": {}
