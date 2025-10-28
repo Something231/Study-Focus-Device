@@ -1,4 +1,4 @@
-ITEM,DESCRIPTION,LINK,UNIT PRICE,QUANTITY,TOTAL PRICE USD,Delivery Fee USD,Total Total:,83.48
+ITEM,DESCRIPTION,LINK,UNIT PRICE,QUANTITY,TOTAL PRICE USD,Delivery Fee USD,Total Total:,85.32
 2.5p 63x32 pixel rgb led matrix panel,rgb led matrix for display,https://www.waveshare.com/product/modules/others/led-buttons/rgb-matrix-p2.5-64x32.htm,17.99,1,17.99,9,,
 ESP32-DevKitC-32E ,esp32 devkit board,https://www.digikey.com.au/en/products/detail/espressif-systems/ESP32-DEVKITC-32E/12091810,10,1,10,20,,
 MAX7219,LED Matrix Driver IC,https://www.jaycar.com.au/max7219-led-matrix-driver-ic/p/ZK8825,,2,6.45,,,
@@ -6,3 +6,4 @@ MCP23017-E/SP,16 bit io expander for i2c,https://www.digikey.com.au/en/products/
 3X6X4.3mm 2Pin tactile switch (DIP),tactile switches,https://www.aliexpress.com/item/1005003751795914.html,2.31,2,4.62,0,,
 RED LED 3mm,RED LED 3mm,https://www.aliexpress.com/item/1005005776965530.html,2.35,1,2.35,,,
 Piezo Buzzer,It buzzes,https://www.jaycar.com.au/mini-piezo-buzzer-3-16vdc/p/AB3462,2.93,1,2.93,,,
+0.1 uf through hole capacitor,Decoupling capacitor,https://www.digikey.com.au/en/products/detail/tdk-corporation/FG18X7R1H104KNT06/5802879,0.23,8,1.84,,,

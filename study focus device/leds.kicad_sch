@@ -5,6 +5,145 @@
 	(uuid "8dff27e6-e3b3-4f54-a9d1-1cbbe38da811")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -1401,6 +1540,12 @@
 		(uuid "a936a084-1ddd-4a1e-b85e-ce199708d556")
 	)
 	(junction
+		(at 39.37 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "acc0468a-e4a2-4a4c-ba57-f472ab40ea18")
+	)
+	(junction
 		(at 115.57 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1459,6 +1604,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c032b6ea-a9bd-41a4-a898-2b49561aa74b")
+	)
+	(junction
+		(at 39.37 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c17c799e-d5d8-4bed-9a8e-5ba9cd5ceeb4")
 	)
 	(junction
 		(at 176.53 53.34)
@@ -2406,6 +2557,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 25.4) (xy 16.51 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ffeb11f-2706-4ec5-be8d-99aa80020383")
+	)
+	(wire
+		(pts
 			(xy 95.25 67.31) (xy 97.79 67.31)
 		)
 		(stroke
@@ -2613,6 +2774,16 @@
 			(type default)
 		)
 		(uuid "56f533ba-2c15-4a53-b227-bd8737c5b2b1")
+	)
+	(wire
+		(pts
+			(xy 16.51 25.4) (xy 16.51 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58c7f8e2-0ed3-493b-9678-1f3e9650dffe")
 	)
 	(wire
 		(pts
@@ -3076,6 +3247,16 @@
 	)
 	(wire
 		(pts
+			(xy 16.51 80.01) (xy 16.51 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8313d7d5-9042-428d-8f9b-4ceefc3c6a8a")
+	)
+	(wire
+		(pts
 			(xy 162.56 67.31) (xy 165.1 67.31)
 		)
 		(stroke
@@ -3166,7 +3347,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 78.74) (xy 39.37 81.28)
+			(xy 39.37 78.74) (xy 39.37 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3456,7 +3637,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 24.13) (xy 39.37 27.94)
+			(xy 39.37 24.13) (xy 39.37 25.4)
 		)
 		(stroke
 			(width 0)
@@ -3596,6 +3777,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 25.4) (xy 39.37 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac14591b-8351-43a4-8d85-844782bde3e5")
+	)
+	(wire
+		(pts
 			(xy 148.59 30.48) (xy 148.59 31.75)
 		)
 		(stroke
@@ -3613,6 +3804,26 @@
 			(type default)
 		)
 		(uuid "aec0257c-8128-48bc-8496-5ff7bb25693b")
+	)
+	(wire
+		(pts
+			(xy 39.37 80.01) (xy 39.37 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aed66b80-f33c-41a9-9042-bdb90f714320")
+	)
+	(wire
+		(pts
+			(xy 39.37 80.01) (xy 16.51 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af6206a1-8b1e-4dfc-8d1f-68c8e51279a2")
 	)
 	(wire
 		(pts
@@ -4608,7 +4819,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "029403ae-ed71-4da8-9336-c43c3b38dc2f")
-		(property "Reference" "D31"
+		(property "Reference" "D?"
 			(at 135.89 79.0574 90)
 			(effects
 				(font
@@ -4671,7 +4882,7 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/03c5c2bd-4970-4d56-a43f-707c6428028e"
-					(reference "D31")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -4687,7 +4898,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03f10a25-4348-46af-a8de-48df073d972a")
-		(property "Reference" "D39"
+		(property "Reference" "D?"
 			(at 119.38 63.8174 90)
 			(effects
 				(font
@@ -4750,7 +4961,7 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/03c5c2bd-4970-4d56-a43f-707c6428028e"
-					(reference "D39")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -4766,7 +4977,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "099ecea6-9450-48c0-9522-1815157fa6fe")
-		(property "Reference" "D46"
+		(property "Reference" "D?"
 			(at 83.82 49.8474 90)
 			(effects
 				(font
@@ -4829,7 +5040,7 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/03c5c2bd-4970-4d56-a43f-707c6428028e"
-					(reference "D46")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -4845,7 +5056,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12334ee2-ac34-43f0-868f-894a4194b363")
-		(property "Reference" "D12"
+		(property "Reference" "D?"
 			(at 119.38 106.9974 90)
 			(effects
 				(font
@@ -4908,7 +5119,7 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/03c5c2bd-4970-4d56-a43f-707c6428028e"
-					(reference "D12")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -4924,7 +5135,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "19f9617e-8240-4977-b147-837f9cd51207")
-		(property "Reference" "D3"
+		(property "Reference" "D?"
 			(at 119.38 123.5074 90)
 			(effects
 				(font
@@ -4987,7 +5198,7 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/03c5c2bd-4970-4d56-a43f-707c6428028e"
-					(reference "D3")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -5003,7 +5214,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c80c3a9-33e8-4e03-88ec-705d4affda96")
-		(property "Reference" "D1"
+		(property "Reference" "D?"
 			(at 83.82 123.5074 90)
 			(effects
 				(font
@@ -5066,7 +5277,7 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/03c5c2bd-4970-4d56-a43f-707c6428028e"
-					(reference "D1")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -5082,7 +5293,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1fef8a5d-b66e-457d-9d52-04c1809ddab3")
-		(property "Reference" "D29"
+		(property "Reference" "D?"
 			(at 101.6 79.0574 90)
 			(effects
 				(font
@@ -5145,7 +5356,7 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/03c5c2bd-4970-4d56-a43f-707c6428028e"
-					(reference "D29")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -5161,7 +5372,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2142b5ee-a812-437a-9f68-2e567a18ba14")
-		(property "Reference" "D15"
+		(property "Reference" "D?"
 			(at 168.91 106.9974 90)
 			(effects
 				(font
@@ -5224,7 +5435,7 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/03c5c2bd-4970-4d56-a43f-707c6428028e"
-					(reference "D15")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -5240,7 +5451,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27bde962-32ba-4e10-af40-bb6c00b89b52")
-		(property "Reference" "D20"
+		(property "Reference" "D?"
 			(at 101.6 91.7574 90)
 			(effects
 				(font
@@ -5303,7 +5514,7 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/03c5c2bd-4970-4d56-a43f-707c6428028e"
-					(reference "D20")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -5319,7 +5530,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2bafb3a3-541b-4809-90bf-e894578bddcf")
-		(property "Reference" "D22"
+		(property "Reference" "D?"
 			(at 135.89 91.7574 90)
 			(effects
 				(font
@@ -5382,7 +5593,7 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/03c5c2bd-4970-4d56-a43f-707c6428028e"
-					(reference "D22")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -5398,7 +5609,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2bee2fe5-ce25-4eb6-bdc2-d290c288b67f")
-		(property "Reference" "D57"
+		(property "Reference" "D?"
 			(at 101.6 35.8774 90)
 			(effects
 				(font
@@ -5461,7 +5672,7 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/03c5c2bd-4970-4d56-a43f-707c6428028e"
-					(reference "D57")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -5477,7 +5688,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f35de51-b78c-46b6-8d6b-c82780f4cbc5")
-		(property "Reference" "D54"
+		(property "Reference" "D?"
 			(at 198.12 49.8474 90)
 			(effects
 				(font
@@ -5540,7 +5751,7 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/03c5c2bd-4970-4d56-a43f-707c6428028e"
-					(reference "D54")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -5556,7 +5767,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2fb2a06f-cba4-496e-90d4-4b66f3e6f3e3")
-		(property "Reference" "D49"
+		(property "Reference" "D?"
 			(at 119.38 49.8474 90)
 			(effects
 				(font
@@ -5619,7 +5830,7 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/03c5c2bd-4970-4d56-a43f-707c6428028e"
-					(reference "D49")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -5635,7 +5846,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37511001-04f5-4edf-9c7a-e574c9d02411")
-		(property "Reference" "D43"
+		(property "Reference" "D?"
 			(at 168.91 63.8174 90)
 			(effects
 				(font
@@ -5698,7 +5909,7 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/03c5c2bd-4970-4d56-a43f-707c6428028e"
-					(reference "D43")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -5714,7 +5925,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37e547a2-a449-4c01-80d8-0dd4909306cc")
-		(property "Reference" "D38"
+		(property "Reference" "D?"
 			(at 101.6 63.8174 90)
 			(effects
 				(font
@@ -5777,7 +5988,7 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/03c5c2bd-4970-4d56-a43f-707c6428028e"
-					(reference "D38")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -5793,7 +6004,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40f45064-ddbd-40bc-8be9-626d48137cea")
-		(property "Reference" "D50"
+		(property "Reference" "D?"
 			(at 135.89 49.8474 90)
 			(effects
 				(font
@@ -5856,7 +6067,7 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/03c5c2bd-4970-4d56-a43f-707c6428028e"
-					(reference "D50")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -5872,7 +6083,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41c7da0c-66f6-4c1e-b824-cba7268c2674")
-		(property "Reference" "D37"
+		(property "Reference" "D?"
 			(at 83.82 63.8174 90)
 			(effects
 				(font
@@ -5935,7 +6146,7 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/03c5c2bd-4970-4d56-a43f-707c6428028e"
-					(reference "D37")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -5951,7 +6162,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47ee6543-b905-48de-bd93-40d37b756bb2")
-		(property "Reference" "D26"
+		(property "Reference" "D?"
 			(at 182.88 91.7574 90)
 			(effects
 				(font
@@ -6014,7 +6225,7 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/03c5c2bd-4970-4d56-a43f-707c6428028e"
-					(reference "D26")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -6030,7 +6241,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "482c14be-e7d5-49db-8e56-2b2bb1fbc339")
-		(property "Reference" "D5"
+		(property "Reference" "D?"
 			(at 152.4 123.5074 90)
 			(effects
 				(font
@@ -6093,7 +6304,7 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/03c5c2bd-4970-4d56-a43f-707c6428028e"
-					(reference "D5")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -6109,7 +6320,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b72ecbf-623a-4358-bb61-8902117ce461")
-		(property "Reference" "D56"
+		(property "Reference" "D?"
 			(at 182.88 140.0174 90)
 			(effects
 				(font
@@ -6172,7 +6383,77 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/03c5c2bd-4970-4d56-a43f-707c6428028e"
-					(reference "D56")
+					(reference "D?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 16.51 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c970ef8-5bc7-48c4-9654-27cfc47ea14d")
+		(property "Reference" "C2"
+			(at 20.32 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 20.32 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm"
+			(at 17.4752 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 16.51 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 16.51 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cd26d79f-b39a-45b6-a67b-3408398c284a")
+		)
+		(pin "1"
+			(uuid "880ecdf5-2d99-4d20-aa26-6ecf49fb7412")
+		)
+		(instances
+			(project "study focus device"
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/03c5c2bd-4970-4d56-a43f-707c6428028e"
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -6188,7 +6469,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56499b63-13d4-47b5-9f43-e88673cd1899")
-		(property "Reference" "D55"
+		(property "Reference" "D?"
 			(at 83.82 35.8774 90)
 			(effects
 				(font
@@ -6251,7 +6532,7 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/03c5c2bd-4970-4d56-a43f-707c6428028e"
-					(reference "D55")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -6267,7 +6548,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "576e39a2-4af0-4288-9cf1-01a3e32ba749")
-		(property "Reference" "D19"
+		(property "Reference" "D?"
 			(at 83.82 91.7574 90)
 			(effects
 				(font
@@ -6330,7 +6611,7 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/03c5c2bd-4970-4d56-a43f-707c6428028e"
-					(reference "D19")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -6346,7 +6627,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b410d3f-c929-4a8f-9b5e-6395a1eb8ba4")
-		(property "Reference" "D53"
+		(property "Reference" "D?"
 			(at 182.88 49.8474 90)
 			(effects
 				(font
@@ -6409,7 +6690,7 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/03c5c2bd-4970-4d56-a43f-707c6428028e"
-					(reference "D53")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -6425,7 +6706,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5fa3ce1d-6374-4c38-9995-6f5e411590a4")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR?"
 			(at 36.83 87.63 0)
 			(effects
 				(font
@@ -6475,7 +6756,7 @@
 		(instances
 			(project ""
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/03c5c2bd-4970-4d56-a43f-707c6428028e"
-					(reference "#PWR020")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -6491,7 +6772,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61039982-626d-4cd1-8fa3-ff2264dbbc82")
-		(property "Reference" "#PWR0133"
+		(property "Reference" "#PWR?"
 			(at 39.37 27.94 0)
 			(effects
 				(font
@@ -6541,7 +6822,7 @@
 		(instances
 			(project ""
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/03c5c2bd-4970-4d56-a43f-707c6428028e"
-					(reference "#PWR0133")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -6557,7 +6838,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6bbf1086-aa2c-491b-970b-cf7c78e9aee6")
-		(property "Reference" "D6"
+		(property "Reference" "D?"
 			(at 168.91 123.5074 90)
 			(effects
 				(font
@@ -6620,7 +6901,7 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/03c5c2bd-4970-4d56-a43f-707c6428028e"
-					(reference "D6")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -6636,7 +6917,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "760fd0c5-5d31-4e04-a1b4-18be26913014")
-		(property "Reference" "D21"
+		(property "Reference" "D?"
 			(at 119.38 91.7574 90)
 			(effects
 				(font
@@ -6699,7 +6980,7 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/03c5c2bd-4970-4d56-a43f-707c6428028e"
-					(reference "D21")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -6715,7 +6996,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81b969a1-7fa7-4d10-be48-21f0c10780b7")
-		(property "Reference" "D14"
+		(property "Reference" "D?"
 			(at 152.4 106.9974 90)
 			(effects
 				(font
@@ -6778,7 +7059,7 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/03c5c2bd-4970-4d56-a43f-707c6428028e"
-					(reference "D14")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -6794,7 +7075,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "833e8bd6-51f7-4355-a164-6cbab90594ac")
-		(property "Reference" "D11"
+		(property "Reference" "D?"
 			(at 101.6 106.9974 90)
 			(effects
 				(font
@@ -6857,7 +7138,7 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/03c5c2bd-4970-4d56-a43f-707c6428028e"
-					(reference "D11")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -6873,7 +7154,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83c27568-fba2-4d4c-b18d-97379202298e")
-		(property "Reference" "D47"
+		(property "Reference" "D?"
 			(at 101.6 49.8474 90)
 			(effects
 				(font
@@ -6936,7 +7217,7 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/03c5c2bd-4970-4d56-a43f-707c6428028e"
-					(reference "D47")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -6952,7 +7233,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84b66f3c-b20d-4a07-8710-a458587155d8")
-		(property "Reference" "D34"
+		(property "Reference" "D?"
 			(at 168.91 79.0574 90)
 			(effects
 				(font
@@ -7015,7 +7296,7 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/03c5c2bd-4970-4d56-a43f-707c6428028e"
-					(reference "D34")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -7031,7 +7312,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "891148d1-2bbe-4ee0-83e4-3e2a87cc13aa")
-		(property "Reference" "D58"
+		(property "Reference" "D?"
 			(at 119.38 35.8774 90)
 			(effects
 				(font
@@ -7094,7 +7375,7 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/03c5c2bd-4970-4d56-a43f-707c6428028e"
-					(reference "D58")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -7110,7 +7391,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8dca934b-be21-4a8f-9cc0-ee0630d07b94")
-		(property "Reference" "D9"
+		(property "Reference" "D?"
 			(at 198.12 123.5074 90)
 			(effects
 				(font
@@ -7173,7 +7454,7 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/03c5c2bd-4970-4d56-a43f-707c6428028e"
-					(reference "D9")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -7189,7 +7470,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f54d786-94ab-4a42-ba9e-b170b3afcdb8")
-		(property "Reference" "D51"
+		(property "Reference" "D?"
 			(at 152.4 49.8474 90)
 			(effects
 				(font
@@ -7252,7 +7533,7 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/03c5c2bd-4970-4d56-a43f-707c6428028e"
-					(reference "D51")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -7268,7 +7549,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "917de3b6-cf3b-4607-9c21-49736f1d12f7")
-		(property "Reference" "D63"
+		(property "Reference" "D?"
 			(at 198.12 35.8774 90)
 			(effects
 				(font
@@ -7331,7 +7612,7 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/03c5c2bd-4970-4d56-a43f-707c6428028e"
-					(reference "D63")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -7347,7 +7628,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96695960-0484-467e-a0dd-11a4b8795570")
-		(property "Reference" "D45"
+		(property "Reference" "D?"
 			(at 198.12 63.8174 90)
 			(effects
 				(font
@@ -7410,7 +7691,7 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/03c5c2bd-4970-4d56-a43f-707c6428028e"
-					(reference "D45")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -7426,7 +7707,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98898061-6b49-4108-8236-1a291d2b942b")
-		(property "Reference" "D64"
+		(property "Reference" "D?"
 			(at 198.12 140.0174 90)
 			(effects
 				(font
@@ -7489,7 +7770,7 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/03c5c2bd-4970-4d56-a43f-707c6428028e"
-					(reference "D64")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -7505,7 +7786,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98cc1e8f-9d8c-41d0-b9c8-039cd83bc095")
-		(property "Reference" "D59"
+		(property "Reference" "D?"
 			(at 135.89 35.8774 90)
 			(effects
 				(font
@@ -7568,7 +7849,7 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/03c5c2bd-4970-4d56-a43f-707c6428028e"
-					(reference "D59")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -7584,7 +7865,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b123b8d-32fe-494b-9d67-b159ed577d1f")
-		(property "Reference" "D10"
+		(property "Reference" "D?"
 			(at 83.82 106.9974 90)
 			(effects
 				(font
@@ -7647,7 +7928,7 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/03c5c2bd-4970-4d56-a43f-707c6428028e"
-					(reference "D10")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -7663,7 +7944,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c3a5463-0064-4db6-aa3f-6a4ccc81d872")
-		(property "Reference" "D27"
+		(property "Reference" "D?"
 			(at 198.12 91.7574 90)
 			(effects
 				(font
@@ -7726,7 +8007,7 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/03c5c2bd-4970-4d56-a43f-707c6428028e"
-					(reference "D27")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -7742,7 +8023,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9cb02070-61d7-42fa-b737-5d1f928c3b1c")
-		(property "Reference" "D42"
+		(property "Reference" "D?"
 			(at 152.4 63.8174 90)
 			(effects
 				(font
@@ -7805,7 +8086,7 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/03c5c2bd-4970-4d56-a43f-707c6428028e"
-					(reference "D42")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -7821,7 +8102,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d186117-2500-436c-af43-0cffacb256dd")
-		(property "Reference" "D40"
+		(property "Reference" "D?"
 			(at 152.4 140.0174 90)
 			(effects
 				(font
@@ -7884,7 +8165,7 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/03c5c2bd-4970-4d56-a43f-707c6428028e"
-					(reference "D40")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -7900,7 +8181,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a192c8f2-b208-45d9-af89-159c05a13117")
-		(property "Reference" "D13"
+		(property "Reference" "D?"
 			(at 135.89 106.9974 90)
 			(effects
 				(font
@@ -7963,7 +8244,7 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/03c5c2bd-4970-4d56-a43f-707c6428028e"
-					(reference "D13")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -7979,7 +8260,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a211bc93-06a6-4a2b-be73-7d16aa695bea")
-		(property "Reference" "D2"
+		(property "Reference" "D?"
 			(at 101.6 123.5074 90)
 			(effects
 				(font
@@ -8042,7 +8323,7 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/03c5c2bd-4970-4d56-a43f-707c6428028e"
-					(reference "D2")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -8058,7 +8339,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a729f247-677a-4e2b-a4ff-7d3eacdce982")
-		(property "Reference" "D4"
+		(property "Reference" "D?"
 			(at 135.89 123.5074 90)
 			(effects
 				(font
@@ -8121,7 +8402,7 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/03c5c2bd-4970-4d56-a43f-707c6428028e"
-					(reference "D4")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -8137,7 +8418,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a971af68-212a-496f-8306-4558a07b5dd4")
-		(property "Reference" "D36"
+		(property "Reference" "D?"
 			(at 198.12 79.0574 90)
 			(effects
 				(font
@@ -8200,7 +8481,7 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/03c5c2bd-4970-4d56-a43f-707c6428028e"
-					(reference "D36")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -8216,7 +8497,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9825f72-e89a-4f00-b7fb-aa7a0ae42c13")
-		(property "Reference" "D61"
+		(property "Reference" "D?"
 			(at 168.91 35.8774 90)
 			(effects
 				(font
@@ -8279,7 +8560,7 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/03c5c2bd-4970-4d56-a43f-707c6428028e"
-					(reference "D61")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -8295,7 +8576,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aecaaf56-ada5-47e2-97c4-6cfc3d10d6e0")
-		(property "Reference" "D16"
+		(property "Reference" "D?"
 			(at 101.6 140.0174 90)
 			(effects
 				(font
@@ -8358,7 +8639,7 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/03c5c2bd-4970-4d56-a43f-707c6428028e"
-					(reference "D16")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -8374,7 +8655,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b36ab71c-76d0-43f0-88d7-8ceac34608f6")
-		(property "Reference" "D52"
+		(property "Reference" "D?"
 			(at 168.91 49.8474 90)
 			(effects
 				(font
@@ -8437,7 +8718,7 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/03c5c2bd-4970-4d56-a43f-707c6428028e"
-					(reference "D52")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -8453,7 +8734,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "beccd076-2419-46ed-b994-069b77d886a8")
-		(property "Reference" "D62"
+		(property "Reference" "D?"
 			(at 182.88 35.8774 90)
 			(effects
 				(font
@@ -8516,7 +8797,7 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/03c5c2bd-4970-4d56-a43f-707c6428028e"
-					(reference "D62")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -8532,7 +8813,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2c64b7c-50c5-4ce8-acab-24cdd0664c80")
-		(property "Reference" "D48"
+		(property "Reference" "D?"
 			(at 168.91 140.0174 90)
 			(effects
 				(font
@@ -8595,7 +8876,7 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/03c5c2bd-4970-4d56-a43f-707c6428028e"
-					(reference "D48")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -8611,7 +8892,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3aec32e-d5a0-4fe6-9721-7a931293436f")
-		(property "Reference" "D17"
+		(property "Reference" "D?"
 			(at 182.88 106.9974 90)
 			(effects
 				(font
@@ -8674,7 +8955,7 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/03c5c2bd-4970-4d56-a43f-707c6428028e"
-					(reference "D17")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -8690,7 +8971,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3c6fe21-7e59-446e-963e-32522f1989be")
-		(property "Reference" "D32"
+		(property "Reference" "D?"
 			(at 135.89 140.0174 90)
 			(effects
 				(font
@@ -8753,7 +9034,7 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/03c5c2bd-4970-4d56-a43f-707c6428028e"
-					(reference "D32")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -8769,7 +9050,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8224e3d-e2db-4387-8927-174fc4702108")
-		(property "Reference" "D8"
+		(property "Reference" "D?"
 			(at 83.82 140.0174 90)
 			(effects
 				(font
@@ -8832,7 +9113,7 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/03c5c2bd-4970-4d56-a43f-707c6428028e"
-					(reference "D8")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -8848,7 +9129,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0067b16-3ba1-41f4-a4f8-a0ede2ddeca1")
-		(property "Reference" "D23"
+		(property "Reference" "D?"
 			(at 152.4 91.7574 90)
 			(effects
 				(font
@@ -8911,7 +9192,7 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/03c5c2bd-4970-4d56-a43f-707c6428028e"
-					(reference "D23")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -8927,7 +9208,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0724455-fe6b-473c-a882-d9fc5340a7c0")
-		(property "Reference" "U7"
+		(property "Reference" "U?"
 			(at 41.5133 25.4 0)
 			(effects
 				(font
@@ -9047,7 +9328,7 @@
 		(instances
 			(project ""
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/03c5c2bd-4970-4d56-a43f-707c6428028e"
-					(reference "U7")
+					(reference "U?")
 					(unit 1)
 				)
 			)
@@ -9063,7 +9344,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0d0ae32-2561-414d-9ef4-80c584c5cb71")
-		(property "Reference" "D25"
+		(property "Reference" "D?"
 			(at 168.91 91.7574 90)
 			(effects
 				(font
@@ -9126,7 +9407,7 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/03c5c2bd-4970-4d56-a43f-707c6428028e"
-					(reference "D25")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -9142,7 +9423,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d18263fa-89b1-4e7e-96a7-26b93f39ba41")
-		(property "Reference" "D28"
+		(property "Reference" "D?"
 			(at 83.82 79.0574 90)
 			(effects
 				(font
@@ -9205,7 +9486,7 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/03c5c2bd-4970-4d56-a43f-707c6428028e"
-					(reference "D28")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -9221,7 +9502,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d23238c4-f03b-4b7e-95c4-587f626f4a7f")
-		(property "Reference" "D30"
+		(property "Reference" "D?"
 			(at 119.38 79.0574 90)
 			(effects
 				(font
@@ -9284,7 +9565,7 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/03c5c2bd-4970-4d56-a43f-707c6428028e"
-					(reference "D30")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -9300,7 +9581,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7e2f762-4561-4e35-9da2-43414350d9a4")
-		(property "Reference" "D33"
+		(property "Reference" "D?"
 			(at 152.4 79.0574 90)
 			(effects
 				(font
@@ -9363,7 +9644,7 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/03c5c2bd-4970-4d56-a43f-707c6428028e"
-					(reference "D33")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -9379,7 +9660,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8423389-8138-4253-8b06-2f7aa44eb1d7")
-		(property "Reference" "D44"
+		(property "Reference" "D?"
 			(at 182.88 63.8174 90)
 			(effects
 				(font
@@ -9442,7 +9723,7 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/03c5c2bd-4970-4d56-a43f-707c6428028e"
-					(reference "D44")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -9458,7 +9739,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e80c238e-6b01-45f4-896f-db80d2551a06")
-		(property "Reference" "D7"
+		(property "Reference" "D?"
 			(at 182.88 123.5074 90)
 			(effects
 				(font
@@ -9521,7 +9802,7 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/03c5c2bd-4970-4d56-a43f-707c6428028e"
-					(reference "D7")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -9537,7 +9818,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3c5e9f4-0247-4ef5-82e5-ca23d994f36f")
-		(property "Reference" "D18"
+		(property "Reference" "D?"
 			(at 198.12 106.9974 90)
 			(effects
 				(font
@@ -9600,7 +9881,7 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/03c5c2bd-4970-4d56-a43f-707c6428028e"
-					(reference "D18")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -9616,7 +9897,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3c7bfb6-07d8-4a4f-9dfc-d9c42b0033cc")
-		(property "Reference" "D41"
+		(property "Reference" "D?"
 			(at 135.89 63.8174 90)
 			(effects
 				(font
@@ -9679,7 +9960,7 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/03c5c2bd-4970-4d56-a43f-707c6428028e"
-					(reference "D41")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -9695,7 +9976,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4619f8f-2978-42c8-8d0f-4bad61b0b082")
-		(property "Reference" "D35"
+		(property "Reference" "D?"
 			(at 182.88 79.0574 90)
 			(effects
 				(font
@@ -9758,7 +10039,7 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/03c5c2bd-4970-4d56-a43f-707c6428028e"
-					(reference "D35")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -9774,7 +10055,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f64fee00-6a7a-4282-8fd7-843643f9d626")
-		(property "Reference" "D24"
+		(property "Reference" "D?"
 			(at 119.38 140.0174 90)
 			(effects
 				(font
@@ -9837,7 +10118,7 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/03c5c2bd-4970-4d56-a43f-707c6428028e"
-					(reference "D24")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -9853,7 +10134,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f68f892d-1d74-4f9e-9299-67b1e653beea")
-		(property "Reference" "D60"
+		(property "Reference" "D?"
 			(at 152.4 35.8774 90)
 			(effects
 				(font
@@ -9916,7 +10197,7 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/03c5c2bd-4970-4d56-a43f-707c6428028e"
-					(reference "D60")
+					(reference "D?")
 					(unit 1)
 				)
 			)

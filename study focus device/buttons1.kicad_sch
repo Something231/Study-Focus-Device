@@ -5,6 +5,145 @@
 	(uuid "1b0eaaf2-5c2c-4b5c-a52c-4c9146e810ab")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Interface_Expansion:MCP23017_SP"
 			(pin_names
 				(offset 1.016)
@@ -934,6 +1073,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 134.62 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7218062b-21c1-4167-97d8-b626f6aeea83")
+	)
+	(junction
+		(at 134.62 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0a11623-81a2-4595-8d73-008cb287bbc9")
+	)
 	(no_connect
 		(at 116.84 90.17)
 		(uuid "0f45bff1-4775-4df1-a73d-86eb8cd7d996")
@@ -941,6 +1092,16 @@
 	(no_connect
 		(at 116.84 87.63)
 		(uuid "9827386f-5d58-4317-a12f-a3f60941a488")
+	)
+	(wire
+		(pts
+			(xy 163.83 74.93) (xy 152.4 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0020dce0-d13f-4b54-a7b1-765902e94e00")
 	)
 	(wire
 		(pts
@@ -954,7 +1115,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 107.95) (xy 165.1 107.95)
+			(xy 152.4 107.95) (xy 175.26 107.95)
 		)
 		(stroke
 			(width 0)
@@ -974,7 +1135,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 90.17) (xy 176.53 90.17)
+			(xy 190.5 90.17) (xy 191.77 90.17)
 		)
 		(stroke
 			(width 0)
@@ -984,7 +1145,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 85.09) (xy 165.1 85.09)
+			(xy 152.4 85.09) (xy 170.18 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1001,6 +1162,16 @@
 			(type default)
 		)
 		(uuid "298c1fc3-1f4a-424d-b7cf-657a019dcfd3")
+	)
+	(wire
+		(pts
+			(xy 93.98 63.5) (xy 93.98 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c6e2d5f-a360-435c-af9f-7926a5c13569")
 	)
 	(wire
 		(pts
@@ -1024,7 +1195,17 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 72.39) (xy 165.1 72.39)
+			(xy 134.62 63.5) (xy 93.98 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36bdf159-8bfb-44a7-a898-dbf9944089be")
+	)
+	(wire
+		(pts
+			(xy 163.83 68.58) (xy 165.1 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1044,7 +1225,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 72.39) (xy 153.67 72.39)
+			(xy 152.4 68.58) (xy 153.67 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1054,7 +1235,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 97.79) (xy 165.1 97.79)
+			(xy 152.4 97.79) (xy 173.99 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1084,6 +1265,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 121.92) (xy 93.98 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59a0c6d3-ba12-4b1a-b5a6-6c26512004e9")
+	)
+	(wire
+		(pts
 			(xy 163.83 77.47) (xy 165.1 77.47)
 		)
 		(stroke
@@ -1094,7 +1285,17 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 102.87) (xy 165.1 102.87)
+			(xy 152.4 68.58) (xy 152.4 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "611eafee-ca64-4cc1-999e-8098806ed656")
+	)
+	(wire
+		(pts
+			(xy 152.4 102.87) (xy 175.26 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1134,7 +1335,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 62.23) (xy 134.62 64.77)
+			(xy 134.62 62.23) (xy 134.62 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1144,7 +1345,17 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 97.79) (xy 176.53 97.79)
+			(xy 163.83 71.12) (xy 163.83 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85a591cd-77ae-47c1-a1a0-8bf4a3de2a92")
+	)
+	(wire
+		(pts
+			(xy 184.15 97.79) (xy 185.42 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1164,7 +1375,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 80.01) (xy 176.53 80.01)
+			(xy 187.96 77.47) (xy 189.23 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1174,7 +1385,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 113.03) (xy 165.1 113.03)
+			(xy 152.4 113.03) (xy 167.64 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1184,7 +1395,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 113.03) (xy 176.53 113.03)
+			(xy 177.8 113.03) (xy 179.07 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1194,7 +1405,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 85.09) (xy 176.53 85.09)
+			(xy 180.34 85.09) (xy 181.61 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1244,13 +1455,33 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 80.01) (xy 165.1 80.01)
+			(xy 134.62 63.5) (xy 134.62 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b207200c-5b95-401c-9ce3-6b2075bb6457")
+	)
+	(wire
+		(pts
+			(xy 176.53 77.47) (xy 177.8 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b3c4f8a8-2fe4-49b8-a10f-631ce52a7354")
+	)
+	(wire
+		(pts
+			(xy 176.53 80.01) (xy 152.4 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bab8ebee-402a-47eb-be4e-a1ecdc5e49fd")
 	)
 	(wire
 		(pts
@@ -1264,7 +1495,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 74.93) (xy 176.53 74.93)
+			(xy 180.34 71.12) (xy 181.61 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1284,13 +1515,23 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 90.17) (xy 165.1 90.17)
+			(xy 152.4 90.17) (xy 180.34 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d8e47e15-ecc8-419d-98a0-dac7a1547c54")
+	)
+	(wire
+		(pts
+			(xy 176.53 77.47) (xy 176.53 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbd50fd4-bed7-48c8-8693-63efd33aface")
 	)
 	(wire
 		(pts
@@ -1304,6 +1545,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 121.92) (xy 93.98 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddae85fa-1d7b-4044-ac73-d326a3a81e9e")
+	)
+	(wire
+		(pts
 			(xy 163.83 95.25) (xy 165.1 95.25)
 		)
 		(stroke
@@ -1314,7 +1565,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 102.87) (xy 176.53 102.87)
+			(xy 185.42 102.87) (xy 186.69 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1324,7 +1575,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 107.95) (xy 176.53 107.95)
+			(xy 185.42 107.95) (xy 186.69 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1334,7 +1585,17 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 74.93) (xy 165.1 74.93)
+			(xy 134.62 121.92) (xy 134.62 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fad93d35-426a-4f34-a3fc-9951ab2dc0ee")
+	)
+	(wire
+		(pts
+			(xy 163.83 71.12) (xy 170.18 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1407,7 +1668,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04abef3b-1d4d-45e6-8d26-31e6a46df1c5")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR?"
 			(at 134.62 66.04 0)
 			(effects
 				(font
@@ -1457,27 +1718,27 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
-					(reference "#PWR097")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
-					(reference "#PWR02")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
-					(reference "#PWR078")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
-					(reference "#PWR04")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
-					(reference "#PWR040")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
-					(reference "#PWR059")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -1485,7 +1746,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 176.53 90.17 90)
+		(at 191.77 90.17 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1493,8 +1754,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08cee925-f433-43b1-9777-e1ed0b233873")
-		(property "Reference" "#PWR011"
-			(at 182.88 90.17 0)
+		(property "Reference" "#PWR?"
+			(at 198.12 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1503,7 +1764,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 180.34 90.1699 90)
+			(at 195.58 90.1699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1512,7 +1773,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 90.17 0)
+			(at 191.77 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1521,7 +1782,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 90.17 0)
+			(at 191.77 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1530,7 +1791,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 176.53 90.17 0)
+			(at 191.77 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1544,27 +1805,27 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
-					(reference "#PWR0110")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
-					(reference "#PWR011")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
-					(reference "#PWR091")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
-					(reference "#PWR034")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
-					(reference "#PWR053")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
-					(reference "#PWR072")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -1580,7 +1841,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ea48c6b-010f-40da-a6f9-d2078d4b2496")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR?"
 			(at 171.45 87.63 0)
 			(effects
 				(font
@@ -1631,27 +1892,27 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
-					(reference "#PWR0102")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
-					(reference "#PWR010")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
-					(reference "#PWR083")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
-					(reference "#PWR026")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
-					(reference "#PWR045")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
-					(reference "#PWR064")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -1659,7 +1920,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 176.53 102.87 90)
+		(at 186.69 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1667,8 +1928,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "19096dcc-5c6f-4a15-a8a7-89cb78109e65")
-		(property "Reference" "#PWR015"
-			(at 182.88 102.87 0)
+		(property "Reference" "#PWR?"
+			(at 193.04 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1677,7 +1938,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 180.34 102.8699 90)
+			(at 190.5 102.8699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1686,7 +1947,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 102.87 0)
+			(at 186.69 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1695,7 +1956,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 102.87 0)
+			(at 186.69 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1704,7 +1965,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 176.53 102.87 0)
+			(at 186.69 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1718,27 +1979,27 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
-					(reference "#PWR0112")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
-					(reference "#PWR015")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
-					(reference "#PWR093")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
-					(reference "#PWR036")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
-					(reference "#PWR055")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
-					(reference "#PWR074")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -1752,9 +2013,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "20168f40-dd26-40dd-ba38-e0029eff51a5")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR?"
 			(at 171.45 77.47 0)
 			(effects
 				(font
@@ -1764,7 +2024,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 168.91 77.4699 90)
+			(at 173.99 73.6599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1805,27 +2065,27 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
-					(reference "#PWR0100")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
-					(reference "#PWR06")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
-					(reference "#PWR081")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
-					(reference "#PWR024")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
-					(reference "#PWR043")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
-					(reference "#PWR062")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -1841,7 +2101,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2bceadb7-aaf6-4b17-9210-c9c97f210986")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR?"
 			(at 171.45 105.41 0)
 			(effects
 				(font
@@ -1892,27 +2152,27 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
-					(reference "#PWR0105")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
-					(reference "#PWR016")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
-					(reference "#PWR086")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
-					(reference "#PWR029")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
-					(reference "#PWR048")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
-					(reference "#PWR067")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -1926,9 +2186,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2e3bebfb-c65d-4f63-8d7f-3bcafbd8e79e")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR?"
 			(at 171.45 82.55 0)
 			(effects
 				(font
@@ -1938,7 +2197,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 168.91 82.5499 90)
+			(at 181.61 80.0099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1979,27 +2238,27 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
-					(reference "#PWR0101")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
-					(reference "#PWR08")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
-					(reference "#PWR082")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
-					(reference "#PWR025")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
-					(reference "#PWR044")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
-					(reference "#PWR063")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -2007,7 +2266,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 176.53 74.93 90)
+		(at 181.61 71.12 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2015,8 +2274,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36193ffd-1ccd-4e1a-9d84-2bc53a7da6e9")
-		(property "Reference" "#PWR05"
-			(at 182.88 74.93 0)
+		(property "Reference" "#PWR?"
+			(at 187.96 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2025,7 +2284,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 180.34 74.9299 90)
+			(at 185.42 71.1199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2034,7 +2293,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 74.93 0)
+			(at 181.61 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2043,7 +2302,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 74.93 0)
+			(at 181.61 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2052,7 +2311,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 176.53 74.93 0)
+			(at 181.61 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2066,27 +2325,27 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
-					(reference "#PWR0107")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
-					(reference "#PWR05")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
-					(reference "#PWR088")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
-					(reference "#PWR031")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
-					(reference "#PWR050")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
-					(reference "#PWR069")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -2094,7 +2353,7 @@
 	)
 	(symbol
 		(lib_id "Study_Focus_Components:3X6mm_2pin_tactile_switch")
-		(at 156.21 71.12 0)
+		(at 156.21 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2102,7 +2361,7 @@
 		(dnp no)
 		(uuid "3a5b2984-ee69-4370-8fc7-96b10fa4309e")
 		(property "Reference" "S?"
-			(at 158.75 71.628 0)
+			(at 158.75 67.818 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2110,7 +2369,7 @@
 			)
 		)
 		(property "Value" "3x6mm 2pin tactile switch"
-			(at 158.75 68.58 0)
+			(at 158.75 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2119,7 +2378,7 @@
 			)
 		)
 		(property "Footprint" "Study Focus Footprints:3X6mm_2pin_tactile_switch"
-			(at 156.21 71.12 0)
+			(at 156.21 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2128,7 +2387,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 71.12 0)
+			(at 156.21 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2137,7 +2396,7 @@
 			)
 		)
 		(property "Description" "Generic 3x6mm 2pin tactile switch form aliexpress"
-			(at 156.21 71.12 0)
+			(at 156.21 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2154,7 +2413,7 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
-					(reference "S81")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
@@ -2162,19 +2421,19 @@
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
-					(reference "S65")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
-					(reference "S1")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
-					(reference "S33")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
-					(reference "S49")
+					(reference "S?")
 					(unit 1)
 				)
 			)
@@ -2182,7 +2441,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 176.53 97.79 90)
+		(at 185.42 97.79 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2190,8 +2449,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "475e5308-40e4-46ad-8f11-026f79f5a5ac")
-		(property "Reference" "#PWR013"
-			(at 182.88 97.79 0)
+		(property "Reference" "#PWR?"
+			(at 191.77 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2200,7 +2459,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 180.34 97.7899 90)
+			(at 189.23 97.7899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2209,7 +2468,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 97.79 0)
+			(at 185.42 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2218,7 +2477,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 97.79 0)
+			(at 185.42 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2227,7 +2486,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 176.53 97.79 0)
+			(at 185.42 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2241,27 +2500,27 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
-					(reference "#PWR0111")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
-					(reference "#PWR013")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
-					(reference "#PWR092")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
-					(reference "#PWR035")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
-					(reference "#PWR054")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
-					(reference "#PWR073")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -2276,7 +2535,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4d303082-ac06-4193-aa51-2890ca4afed7")
-		(property "Reference" "S15"
+		(property "Reference" "S?"
 			(at 158.75 109.728 0)
 			(effects
 				(font
@@ -2329,27 +2588,117 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
-					(reference "S88")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
-					(reference "S15")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
-					(reference "S72")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
-					(reference "S24")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
-					(reference "S40")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
-					(reference "S56")
+					(reference "S?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 93.98 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56780c51-fe14-439d-914c-d8f2840d2467")
+		(property "Reference" "C1"
+			(at 97.79 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 97.79 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm"
+			(at 94.9452 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 93.98 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1d0a285f-e583-422c-8e70-3ef34d470e9d")
+		)
+		(pin "1"
+			(uuid "c3ae0f2c-830d-44a7-9170-43343a122cb1")
+		)
+		(instances
+			(project "study focus device"
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
+					(reference "C1")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
+					(reference "C1")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
+					(reference "C1")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
+					(reference "C1")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
+					(reference "C1")
+					(unit 1)
+				)
+				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -2357,7 +2706,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 134.62 121.92 0)
+		(at 134.62 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2365,8 +2714,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5afb7bb8-e110-48a3-a0fd-34a02f025551")
-		(property "Reference" "#PWR01"
-			(at 134.62 128.27 0)
+		(property "Reference" "#PWR?"
+			(at 134.62 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2375,7 +2724,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 134.62 127 0)
+			(at 134.62 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2383,7 +2732,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 121.92 0)
+			(at 134.62 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2392,7 +2741,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 121.92 0)
+			(at 134.62 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2401,7 +2750,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 134.62 121.92 0)
+			(at 134.62 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2415,27 +2764,27 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
-					(reference "#PWR098")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
-					(reference "#PWR01")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
-					(reference "#PWR079")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
-					(reference "#PWR021")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
-					(reference "#PWR041")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
-					(reference "#PWR060")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -2450,7 +2799,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5ca6aed0-26a6-4b3d-af08-5fc6ad0ee697")
-		(property "Reference" "S13"
+		(property "Reference" "S?"
 			(at 158.75 104.648 0)
 			(effects
 				(font
@@ -2503,27 +2852,27 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
-					(reference "S87")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
-					(reference "S13")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
-					(reference "S71")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
-					(reference "S23")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
-					(reference "S39")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
-					(reference "S55")
+					(reference "S?")
 					(unit 1)
 				)
 			)
@@ -2539,7 +2888,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "697a318e-fe98-4f76-b46c-9c3c1e4ec18d")
-		(property "Reference" "U1"
+		(property "Reference" "U?"
 			(at 136.7633 64.77 0)
 			(effects
 				(font
@@ -2673,27 +3022,27 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
-					(reference "U6")
+					(reference "U?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
-					(reference "U1")
+					(reference "U?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
-					(reference "U5")
+					(reference "U?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
-					(reference "U2")
+					(reference "U?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
-					(reference "U3")
+					(reference "U?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
-					(reference "U4")
+					(reference "U?")
 					(unit 1)
 				)
 			)
@@ -2701,15 +3050,15 @@
 	)
 	(symbol
 		(lib_id "Study_Focus_Components:3X6mm_2pin_tactile_switch")
-		(at 167.64 88.9 0)
+		(at 182.88 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "6e87ec87-4e5c-44f3-a687-4fd990723ebc")
-		(property "Reference" "S8"
-			(at 170.18 89.408 0)
+		(property "Reference" "S?"
+			(at 185.42 89.408 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2717,7 +3066,7 @@
 			)
 		)
 		(property "Value" "3x6mm 2pin tactile switch"
-			(at 170.18 86.36 0)
+			(at 185.42 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2726,7 +3075,7 @@
 			)
 		)
 		(property "Footprint" "Study Focus Footprints:3X6mm_2pin_tactile_switch"
-			(at 167.64 88.9 0)
+			(at 182.88 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2735,7 +3084,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 88.9 0)
+			(at 182.88 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2744,7 +3093,7 @@
 			)
 		)
 		(property "Description" "Generic 3x6mm 2pin tactile switch form aliexpress"
-			(at 167.64 88.9 0)
+			(at 182.88 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2761,27 +3110,27 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
-					(reference "S92")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
-					(reference "S8")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
-					(reference "S76")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
-					(reference "S28")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
-					(reference "S44")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
-					(reference "S60")
+					(reference "S?")
 					(unit 1)
 				)
 			)
@@ -2789,7 +3138,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 176.53 107.95 90)
+		(at 186.69 107.95 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2797,8 +3146,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7de9fa9d-43af-4661-a54b-e6b2a7eb3e1f")
-		(property "Reference" "#PWR017"
-			(at 182.88 107.95 0)
+		(property "Reference" "#PWR?"
+			(at 193.04 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2807,7 +3156,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 180.34 107.9499 90)
+			(at 190.5 107.9499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2816,7 +3165,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 107.95 0)
+			(at 186.69 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2825,7 +3174,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 107.95 0)
+			(at 186.69 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2834,7 +3183,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 176.53 107.95 0)
+			(at 186.69 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2848,27 +3197,27 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
-					(reference "#PWR0113")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
-					(reference "#PWR017")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
-					(reference "#PWR094")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
-					(reference "#PWR037")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
-					(reference "#PWR056")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
-					(reference "#PWR075")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -2935,7 +3284,7 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
-					(reference "#PWR096")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
@@ -2943,19 +3292,19 @@
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
-					(reference "#PWR077")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
-					(reference "#PWR03")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
-					(reference "#PWR039")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
-					(reference "#PWR058")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -2969,9 +3318,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "83f11316-cc12-4233-9dcc-90278e1e06fb")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR?"
 			(at 171.45 110.49 0)
 			(effects
 				(font
@@ -2981,7 +3329,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 168.91 110.4899 90)
+			(at 179.07 110.4899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3022,27 +3370,27 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
-					(reference "#PWR0106")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
-					(reference "#PWR018")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
-					(reference "#PWR087")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
-					(reference "#PWR030")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
-					(reference "#PWR049")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
-					(reference "#PWR068")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -3058,7 +3406,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "852794a1-3393-4dac-bd3a-7db84e59e99d")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR?"
 			(at 171.45 100.33 0)
 			(effects
 				(font
@@ -3109,27 +3457,27 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
-					(reference "#PWR0104")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
-					(reference "#PWR014")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
-					(reference "#PWR085")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
-					(reference "#PWR028")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
-					(reference "#PWR047")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
-					(reference "#PWR066")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -3137,7 +3485,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 176.53 80.01 90)
+		(at 189.23 77.47 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3145,8 +3493,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92ce6346-d9c8-46a4-9b13-114a9623b2eb")
-		(property "Reference" "#PWR07"
-			(at 182.88 80.01 0)
+		(property "Reference" "#PWR?"
+			(at 195.58 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3155,7 +3503,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 180.34 80.0099 90)
+			(at 193.04 77.4699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3164,7 +3512,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 80.01 0)
+			(at 189.23 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3173,7 +3521,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 80.01 0)
+			(at 189.23 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3182,7 +3530,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 176.53 80.01 0)
+			(at 189.23 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3196,27 +3544,27 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
-					(reference "#PWR0108")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
-					(reference "#PWR07")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
-					(reference "#PWR089")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
-					(reference "#PWR032")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
-					(reference "#PWR051")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
-					(reference "#PWR070")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -3224,7 +3572,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 176.53 113.03 90)
+		(at 179.07 113.03 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3232,8 +3580,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a6eae8c-a37c-47de-bde3-3f226ebd9bca")
-		(property "Reference" "#PWR019"
-			(at 182.88 113.03 0)
+		(property "Reference" "#PWR?"
+			(at 185.42 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3242,7 +3590,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 180.34 113.0299 90)
+			(at 182.88 113.0299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3251,7 +3599,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 113.03 0)
+			(at 179.07 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3260,7 +3608,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 113.03 0)
+			(at 179.07 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3269,7 +3617,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 176.53 113.03 0)
+			(at 179.07 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3283,27 +3631,27 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
-					(reference "#PWR0114")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
-					(reference "#PWR019")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
-					(reference "#PWR095")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
-					(reference "#PWR038")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
-					(reference "#PWR057")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
-					(reference "#PWR076")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -3311,15 +3659,15 @@
 	)
 	(symbol
 		(lib_id "Study_Focus_Components:3X6mm_2pin_tactile_switch")
-		(at 167.64 83.82 0)
+		(at 172.72 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "9a817c13-4b6c-4fb7-88c3-ab2abde30c74")
-		(property "Reference" "S6"
-			(at 170.18 84.328 0)
+		(property "Reference" "S?"
+			(at 175.26 84.328 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3327,7 +3675,7 @@
 			)
 		)
 		(property "Value" "3x6mm 2pin tactile switch"
-			(at 170.18 81.28 0)
+			(at 175.26 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3336,7 +3684,7 @@
 			)
 		)
 		(property "Footprint" "Study Focus Footprints:3X6mm_2pin_tactile_switch"
-			(at 167.64 83.82 0)
+			(at 172.72 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3345,7 +3693,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 83.82 0)
+			(at 172.72 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3354,7 +3702,7 @@
 			)
 		)
 		(property "Description" "Generic 3x6mm 2pin tactile switch form aliexpress"
-			(at 167.64 83.82 0)
+			(at 172.72 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3371,27 +3719,27 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
-					(reference "S91")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
-					(reference "S6")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
-					(reference "S75")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
-					(reference "S27")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
-					(reference "S43")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
-					(reference "S59")
+					(reference "S?")
 					(unit 1)
 				)
 			)
@@ -3399,15 +3747,15 @@
 	)
 	(symbol
 		(lib_id "Study_Focus_Components:3X6mm_2pin_tactile_switch")
-		(at 167.64 96.52 0)
+		(at 176.53 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "b52e4fbf-d4dc-47f7-bcb0-1d8fef27ab6d")
-		(property "Reference" "S10"
-			(at 170.18 97.028 0)
+		(property "Reference" "S?"
+			(at 179.07 97.028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3415,7 +3763,7 @@
 			)
 		)
 		(property "Value" "3x6mm 2pin tactile switch"
-			(at 170.18 93.98 0)
+			(at 179.07 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3424,7 +3772,7 @@
 			)
 		)
 		(property "Footprint" "Study Focus Footprints:3X6mm_2pin_tactile_switch"
-			(at 167.64 96.52 0)
+			(at 176.53 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3433,7 +3781,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 96.52 0)
+			(at 176.53 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3442,7 +3790,7 @@
 			)
 		)
 		(property "Description" "Generic 3x6mm 2pin tactile switch form aliexpress"
-			(at 167.64 96.52 0)
+			(at 176.53 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3459,27 +3807,27 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
-					(reference "S93")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
-					(reference "S10")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
-					(reference "S77")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
-					(reference "S29")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
-					(reference "S45")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
-					(reference "S61")
+					(reference "S?")
 					(unit 1)
 				)
 			)
@@ -3487,15 +3835,15 @@
 	)
 	(symbol
 		(lib_id "Study_Focus_Components:3X6mm_2pin_tactile_switch")
-		(at 167.64 101.6 0)
+		(at 177.8 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "b8b25ce7-3c04-4621-ada0-79f3f56e3ca1")
-		(property "Reference" "S12"
-			(at 170.18 102.108 0)
+		(property "Reference" "S?"
+			(at 180.34 102.108 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3503,7 +3851,7 @@
 			)
 		)
 		(property "Value" "3x6mm 2pin tactile switch"
-			(at 170.18 99.06 0)
+			(at 180.34 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3512,7 +3860,7 @@
 			)
 		)
 		(property "Footprint" "Study Focus Footprints:3X6mm_2pin_tactile_switch"
-			(at 167.64 101.6 0)
+			(at 177.8 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3521,7 +3869,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 101.6 0)
+			(at 177.8 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3530,7 +3878,7 @@
 			)
 		)
 		(property "Description" "Generic 3x6mm 2pin tactile switch form aliexpress"
-			(at 167.64 101.6 0)
+			(at 177.8 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3547,27 +3895,27 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
-					(reference "S94")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
-					(reference "S12")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
-					(reference "S78")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
-					(reference "S30")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
-					(reference "S46")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
-					(reference "S62")
+					(reference "S?")
 					(unit 1)
 				)
 			)
@@ -3582,7 +3930,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c0b2c094-a786-433e-8b29-1efc62c09e24")
-		(property "Reference" "S7"
+		(property "Reference" "S?"
 			(at 158.75 86.868 0)
 			(effects
 				(font
@@ -3635,27 +3983,27 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
-					(reference "S84")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
-					(reference "S7")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
-					(reference "S68")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
-					(reference "S20")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
-					(reference "S36")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
-					(reference "S52")
+					(reference "S?")
 					(unit 1)
 				)
 			)
@@ -3670,7 +4018,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c64c10a7-f2da-4949-b275-5376b6571327")
-		(property "Reference" "S11"
+		(property "Reference" "S?"
 			(at 158.75 99.568 0)
 			(effects
 				(font
@@ -3723,27 +4071,27 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
-					(reference "S86")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
-					(reference "S11")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
-					(reference "S70")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
-					(reference "S22")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
-					(reference "S38")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
-					(reference "S54")
+					(reference "S?")
 					(unit 1)
 				)
 			)
@@ -3751,15 +4099,15 @@
 	)
 	(symbol
 		(lib_id "Study_Focus_Components:3X6mm_2pin_tactile_switch")
-		(at 167.64 106.68 0)
+		(at 177.8 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "c798192d-6863-4d8c-b3f6-efc60c399182")
-		(property "Reference" "S14"
-			(at 170.18 107.188 0)
+		(property "Reference" "S?"
+			(at 180.34 107.188 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3767,7 +4115,7 @@
 			)
 		)
 		(property "Value" "3x6mm 2pin tactile switch"
-			(at 170.18 104.14 0)
+			(at 180.34 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3776,7 +4124,7 @@
 			)
 		)
 		(property "Footprint" "Study Focus Footprints:3X6mm_2pin_tactile_switch"
-			(at 167.64 106.68 0)
+			(at 177.8 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3785,7 +4133,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 106.68 0)
+			(at 177.8 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3794,7 +4142,7 @@
 			)
 		)
 		(property "Description" "Generic 3x6mm 2pin tactile switch form aliexpress"
-			(at 167.64 106.68 0)
+			(at 177.8 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3811,27 +4159,27 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
-					(reference "S95")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
-					(reference "S14")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
-					(reference "S79")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
-					(reference "S31")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
-					(reference "S47")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
-					(reference "S63")
+					(reference "S?")
 					(unit 1)
 				)
 			)
@@ -3846,7 +4194,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cd40ee59-eb17-4332-8fe5-84064359a4f9")
-		(property "Reference" "S5"
+		(property "Reference" "S?"
 			(at 158.75 81.788 0)
 			(effects
 				(font
@@ -3899,27 +4247,27 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
-					(reference "S83")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
-					(reference "S5")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
-					(reference "S67")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
-					(reference "S19")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
-					(reference "S35")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
-					(reference "S51")
+					(reference "S?")
 					(unit 1)
 				)
 			)
@@ -3927,15 +4275,15 @@
 	)
 	(symbol
 		(lib_id "Study_Focus_Components:3X6mm_2pin_tactile_switch")
-		(at 167.64 78.74 0)
+		(at 180.34 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "ce26e21b-951c-4ebb-b3ac-01d1a595cd2f")
-		(property "Reference" "S4"
-			(at 170.18 79.248 0)
+		(property "Reference" "S?"
+			(at 182.88 76.708 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3943,7 +4291,7 @@
 			)
 		)
 		(property "Value" "3x6mm 2pin tactile switch"
-			(at 170.18 76.2 0)
+			(at 182.88 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3952,7 +4300,7 @@
 			)
 		)
 		(property "Footprint" "Study Focus Footprints:3X6mm_2pin_tactile_switch"
-			(at 167.64 78.74 0)
+			(at 180.34 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3961,7 +4309,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 78.74 0)
+			(at 180.34 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3970,7 +4318,7 @@
 			)
 		)
 		(property "Description" "Generic 3x6mm 2pin tactile switch form aliexpress"
-			(at 167.64 78.74 0)
+			(at 180.34 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3987,27 +4335,27 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
-					(reference "S90")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
-					(reference "S4")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
-					(reference "S74")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
-					(reference "S26")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
-					(reference "S42")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
-					(reference "S58")
+					(reference "S?")
 					(unit 1)
 				)
 			)
@@ -4015,15 +4363,15 @@
 	)
 	(symbol
 		(lib_id "Study_Focus_Components:3X6mm_2pin_tactile_switch")
-		(at 167.64 111.76 0)
+		(at 170.18 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "d7eef812-4bb2-4f80-97d2-cbde94790aac")
-		(property "Reference" "S16"
-			(at 170.18 112.268 0)
+		(property "Reference" "S?"
+			(at 172.72 112.268 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4031,7 +4379,7 @@
 			)
 		)
 		(property "Value" "3x6mm 2pin tactile switch"
-			(at 170.18 109.22 0)
+			(at 172.72 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4040,7 +4388,7 @@
 			)
 		)
 		(property "Footprint" "Study Focus Footprints:3X6mm_2pin_tactile_switch"
-			(at 167.64 111.76 0)
+			(at 170.18 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4049,7 +4397,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 111.76 0)
+			(at 170.18 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4058,7 +4406,7 @@
 			)
 		)
 		(property "Description" "Generic 3x6mm 2pin tactile switch form aliexpress"
-			(at 167.64 111.76 0)
+			(at 170.18 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4075,27 +4423,27 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
-					(reference "S96")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
-					(reference "S16")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
-					(reference "S80")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
-					(reference "S32")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
-					(reference "S48")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
-					(reference "S64")
+					(reference "S?")
 					(unit 1)
 				)
 			)
@@ -4111,7 +4459,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db1887fe-5f43-441a-a5d4-2074d146c92d")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR?"
 			(at 171.45 95.25 0)
 			(effects
 				(font
@@ -4162,27 +4510,27 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
-					(reference "#PWR0103")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
-					(reference "#PWR012")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
-					(reference "#PWR084")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
-					(reference "#PWR027")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
-					(reference "#PWR046")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
-					(reference "#PWR065")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -4197,7 +4545,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e8aae7f7-ccb1-4f64-bdbd-8ff4ccb0a917")
-		(property "Reference" "S3"
+		(property "Reference" "S?"
 			(at 158.75 76.708 0)
 			(effects
 				(font
@@ -4250,27 +4598,27 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
-					(reference "S82")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
-					(reference "S3")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
-					(reference "S66")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
-					(reference "S18")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
-					(reference "S34")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
-					(reference "S50")
+					(reference "S?")
 					(unit 1)
 				)
 			)
@@ -4278,7 +4626,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 165.1 72.39 90)
+		(at 165.1 68.58 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4287,7 +4635,7 @@
 		(fields_autoplaced yes)
 		(uuid "e980e0c0-94e0-4515-b2d8-f075c5068cb0")
 		(property "Reference" "#PWR?"
-			(at 171.45 72.39 0)
+			(at 171.45 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4296,7 +4644,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 168.91 72.3899 90)
+			(at 168.91 68.5799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4305,7 +4653,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 72.39 0)
+			(at 165.1 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4314,7 +4662,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 72.39 0)
+			(at 165.1 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4323,7 +4671,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 165.1 72.39 0)
+			(at 165.1 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4337,7 +4685,7 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
-					(reference "#PWR099")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
@@ -4345,19 +4693,19 @@
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
-					(reference "#PWR080")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
-					(reference "#PWR022")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
-					(reference "#PWR042")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
-					(reference "#PWR061")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -4372,7 +4720,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "effd7fb2-40b8-4599-900d-b4e5ac3968f0")
-		(property "Reference" "S9"
+		(property "Reference" "S?"
 			(at 158.75 94.488 0)
 			(effects
 				(font
@@ -4425,27 +4773,27 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
-					(reference "S85")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
-					(reference "S9")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
-					(reference "S69")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
-					(reference "S21")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
-					(reference "S37")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
-					(reference "S53")
+					(reference "S?")
 					(unit 1)
 				)
 			)
@@ -4453,7 +4801,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 176.53 85.09 90)
+		(at 181.61 85.09 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4461,8 +4809,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0528316-3c63-429b-8e3a-9c4507277615")
-		(property "Reference" "#PWR09"
-			(at 182.88 85.09 0)
+		(property "Reference" "#PWR?"
+			(at 187.96 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4471,7 +4819,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 180.34 85.0899 90)
+			(at 185.42 85.0899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4480,7 +4828,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 85.09 0)
+			(at 181.61 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4489,7 +4837,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 85.09 0)
+			(at 181.61 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4498,7 +4846,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 176.53 85.09 0)
+			(at 181.61 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4512,27 +4860,27 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
-					(reference "#PWR0109")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
-					(reference "#PWR09")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
-					(reference "#PWR090")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
-					(reference "#PWR033")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
-					(reference "#PWR052")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
-					(reference "#PWR071")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -4540,15 +4888,15 @@
 	)
 	(symbol
 		(lib_id "Study_Focus_Components:3X6mm_2pin_tactile_switch")
-		(at 167.64 73.66 0)
+		(at 172.72 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "f9b10699-6948-4b62-83f6-610c41eaa765")
-		(property "Reference" "S2"
-			(at 170.18 74.168 0)
+		(property "Reference" "S?"
+			(at 175.26 70.358 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4556,7 +4904,7 @@
 			)
 		)
 		(property "Value" "3x6mm 2pin tactile switch"
-			(at 170.18 71.12 0)
+			(at 175.26 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4565,7 +4913,7 @@
 			)
 		)
 		(property "Footprint" "Study Focus Footprints:3X6mm_2pin_tactile_switch"
-			(at 167.64 73.66 0)
+			(at 172.72 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4574,7 +4922,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 73.66 0)
+			(at 172.72 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4583,7 +4931,7 @@
 			)
 		)
 		(property "Description" "Generic 3x6mm 2pin tactile switch form aliexpress"
-			(at 167.64 73.66 0)
+			(at 172.72 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4600,27 +4948,27 @@
 		(instances
 			(project "study focus device"
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/59c9e324-f072-4507-a391-6a085bfc55dd"
-					(reference "S89")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/7f0f166a-8b8a-48ce-8614-d2f44b93b1ca"
-					(reference "S2")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/905cbd2a-c881-46ca-91d0-69e595042f21"
-					(reference "S73")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/91106450-dc9d-45b8-98b1-bf2f3110574b"
-					(reference "S25")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/ad2a3ca2-5a53-4cc8-a2a5-5c3bf3f6d5cc"
-					(reference "S41")
+					(reference "S?")
 					(unit 1)
 				)
 				(path "/33a9b268-fa43-451b-98e7-c69879a56f92/e3cf9556-0738-4a48-8683-09cae1e3b11c"
-					(reference "S57")
+					(reference "S?")
 					(unit 1)
 				)
 			)
